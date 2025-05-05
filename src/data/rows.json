@@ -1,0 +1,1630 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "5f5g-n3cz",
+      "name" : "MTA Subway Stations and Complexes",
+      "assetType" : "dataset",
+      "attribution" : "Metropolitan Transportation Authority",
+      "attributionLink" : "https://www.mta.info/open-data",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1697058304,
+      "description" : "A dataset listing all subway and Staten Island Railway stations, with data aggregated by station complex. This dataset includes information on station names, their locations, Station IDs, Complex IDs, GTFS Stop IDs, the services that stop there, the type of structure the station is on or in, whether they are in Manhattan’s Central Business District (CBD), and their ADA-accessibility status.",
+      "diciBackend" : false,
+      "displayType" : "table",
+      "downloadCount" : 2263,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 40623900,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1718657637,
+      "publicationGroup" : 19323168,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1746418503,
+      "rowsUpdatedBy" : "xzik-pf59",
+      "tableId" : 19551261,
+      "totalTimesRated" : 0,
+      "viewCount" : 3058,
+      "viewLastModified" : 1746418502,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1697139060,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 6353053,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1697139060,
+        "targetAudience" : "public",
+        "workflowId" : 2254,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1697139060,
+          "failureCount" : 0,
+          "startedAt" : 1697139060,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "m7m8-qafi",
+          "displayName" : "Open Data Administrator 2"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 593796674,
+        "name" : "Complex ID",
+        "dataTypeName" : "number",
+        "description" : "The Complex ID, or its Complex Master Reference Number.",
+        "fieldName" : "complex_id",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 149191198,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "636",
+          "null" : "0",
+          "top" : [ {
+            "item" : "33",
+            "count" : "1"
+          }, {
+            "item" : "124",
+            "count" : "1"
+          }, {
+            "item" : "204",
+            "count" : "1"
+          }, {
+            "item" : "14",
+            "count" : "1"
+          }, {
+            "item" : "3",
+            "count" : "1"
+          }, {
+            "item" : "252",
+            "count" : "1"
+          }, {
+            "item" : "74",
+            "count" : "1"
+          }, {
+            "item" : "323",
+            "count" : "1"
+          }, {
+            "item" : "348",
+            "count" : "1"
+          }, {
+            "item" : "232",
+            "count" : "1"
+          }, {
+            "item" : "383",
+            "count" : "1"
+          }, {
+            "item" : "626",
+            "count" : "1"
+          }, {
+            "item" : "244",
+            "count" : "1"
+          }, {
+            "item" : "77",
+            "count" : "1"
+          }, {
+            "item" : "37",
+            "count" : "1"
+          }, {
+            "item" : "169",
+            "count" : "1"
+          }, {
+            "item" : "84",
+            "count" : "1"
+          }, {
+            "item" : "223",
+            "count" : "1"
+          }, {
+            "item" : "391",
+            "count" : "1"
+          }, {
+            "item" : "635",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "count" : "445",
+          "cardinality" : "445"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "center"
+        }
+      }, {
+        "id" : 593796675,
+        "name" : "Is Complex",
+        "dataTypeName" : "text",
+        "description" : "TRUE if this is a station complex, and FALSE if not.",
+        "fieldName" : "is_complex",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191194,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "True",
+          "null" : "0",
+          "top" : [ {
+            "item" : "False",
+            "count" : "413"
+          }, {
+            "item" : "True",
+            "count" : "32"
+          } ],
+          "smallest" : "False",
+          "count" : "445",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 593796676,
+        "name" : "Number Of Stations In Complex",
+        "dataTypeName" : "text",
+        "description" : "The number of stations within a station complex or 1 if the station is not a station complex.",
+        "fieldName" : "number_of_stations_in_complex",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191197,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "5",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "410"
+          }, {
+            "item" : "2",
+            "count" : "24"
+          }, {
+            "item" : "3",
+            "count" : "7"
+          }, {
+            "item" : "4",
+            "count" : "3"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "count" : "445",
+          "cardinality" : "5"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "center"
+        }
+      }, {
+        "id" : 593796677,
+        "name" : "Stop Name",
+        "dataTypeName" : "text",
+        "description" : "The name of the subway station.",
+        "fieldName" : "stop_name",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191193,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "Zerega Av",
+          "null" : "0",
+          "top" : [ {
+            "item" : "86 St",
+            "count" : "6"
+          }, {
+            "item" : "23 St",
+            "count" : "5"
+          }, {
+            "item" : "96 St",
+            "count" : "4"
+          }, {
+            "item" : "125 St",
+            "count" : "4"
+          }, {
+            "item" : "Canal St",
+            "count" : "3"
+          }, {
+            "item" : "Fort Hamilton Pkwy",
+            "count" : "3"
+          }, {
+            "item" : "Van Siclen Av",
+            "count" : "3"
+          }, {
+            "item" : "111 St",
+            "count" : "3"
+          }, {
+            "item" : "116 St",
+            "count" : "3"
+          }, {
+            "item" : "72 St",
+            "count" : "3"
+          }, {
+            "item" : "Kings Hwy",
+            "count" : "3"
+          }, {
+            "item" : "18 Av",
+            "count" : "3"
+          }, {
+            "item" : "50 St",
+            "count" : "3"
+          }, {
+            "item" : "28 St",
+            "count" : "3"
+          }, {
+            "item" : "Church Av",
+            "count" : "3"
+          }, {
+            "item" : "7 Av",
+            "count" : "3"
+          }, {
+            "item" : "Avenue U",
+            "count" : "3"
+          }, {
+            "item" : "145 St",
+            "count" : "3"
+          }, {
+            "item" : "103 St",
+            "count" : "3"
+          }, {
+            "item" : "Bay Pkwy",
+            "count" : "3"
+          } ],
+          "smallest" : "103 St",
+          "count" : "445",
+          "cardinality" : "365"
+        },
+        "format" : { }
+      }, {
+        "id" : 593796678,
+        "name" : "Display Name",
+        "dataTypeName" : "text",
+        "description" : "The name of the subway station, with the services that serve the station during weekday daytime hours in parenthesis.",
+        "fieldName" : "display_name",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191192,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "(SIR)",
+          "null" : "0",
+          "top" : [ {
+            "item" : "(6)",
+            "count" : "29"
+          }, {
+            "item" : "(1)",
+            "count" : "28"
+          }, {
+            "item" : "(2,5)",
+            "count" : "25"
+          }, {
+            "item" : "(A)",
+            "count" : "21"
+          }, {
+            "item" : "(SIR)",
+            "count" : "21"
+          }, {
+            "item" : "(F)",
+            "count" : "20"
+          }, {
+            "item" : "(L)",
+            "count" : "18"
+          }, {
+            "item" : "(7)",
+            "count" : "16"
+          }, {
+            "item" : "(Q)",
+            "count" : "12"
+          }, {
+            "item" : "(D)",
+            "count" : "12"
+          }, {
+            "item" : "(J,Z)",
+            "count" : "12"
+          }, {
+            "item" : "(3)",
+            "count" : "11"
+          }, {
+            "item" : "(4)",
+            "count" : "11"
+          }, {
+            "item" : "(M,R)",
+            "count" : "10"
+          }, {
+            "item" : "(C)",
+            "count" : "10"
+          }, {
+            "item" : "(G)",
+            "count" : "10"
+          }, {
+            "item" : "(B,D)",
+            "count" : "10"
+          }, {
+            "item" : "(2,3)",
+            "count" : "9"
+          }, {
+            "item" : "(R)",
+            "count" : "9"
+          }, {
+            "item" : "(N)",
+            "count" : "8"
+          } ],
+          "smallest" : "(1)",
+          "count" : "445",
+          "cardinality" : "95"
+        },
+        "format" : { }
+      }, {
+        "id" : 593796679,
+        "name" : "Constituent Station Names",
+        "dataTypeName" : "text",
+        "description" : "The name of the subway station or of multiple subway stations within one station complex, separated by a semi-colon. For stations that are not in complexes, this is identical to the stop name.",
+        "fieldName" : "constituent_station_names",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191191,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "Zerega Av",
+          "null" : "0",
+          "top" : [ {
+            "item" : "86 St",
+            "count" : "6"
+          }, {
+            "item" : "23 St",
+            "count" : "5"
+          }, {
+            "item" : "125 St",
+            "count" : "4"
+          }, {
+            "item" : "96 St",
+            "count" : "4"
+          }, {
+            "item" : "18 Av",
+            "count" : "3"
+          }, {
+            "item" : "7 Av",
+            "count" : "3"
+          }, {
+            "item" : "Van Siclen Av",
+            "count" : "3"
+          }, {
+            "item" : "28 St",
+            "count" : "3"
+          }, {
+            "item" : "145 St",
+            "count" : "3"
+          }, {
+            "item" : "72 St",
+            "count" : "3"
+          }, {
+            "item" : "Fort Hamilton Pkwy",
+            "count" : "3"
+          }, {
+            "item" : "Church Av",
+            "count" : "3"
+          }, {
+            "item" : "Avenue U",
+            "count" : "3"
+          }, {
+            "item" : "50 St",
+            "count" : "3"
+          }, {
+            "item" : "Bay Pkwy",
+            "count" : "3"
+          }, {
+            "item" : "111 St",
+            "count" : "3"
+          }, {
+            "item" : "Kings Hwy",
+            "count" : "3"
+          }, {
+            "item" : "Canal St",
+            "count" : "3"
+          }, {
+            "item" : "103 St",
+            "count" : "3"
+          }, {
+            "item" : "116 St",
+            "count" : "3"
+          } ],
+          "smallest" : "103 St",
+          "count" : "445",
+          "cardinality" : "365"
+        },
+        "format" : { }
+      }, {
+        "id" : 593796680,
+        "name" : "Station IDs",
+        "dataTypeName" : "text",
+        "description" : "The ID, or Master Reference Number, for the station. If it is a station complex, multiple IDs are shown, separated by a semi-colon.",
+        "fieldName" : "station_ids",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191196,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "99",
+          "null" : "0",
+          "top" : [ {
+            "item" : "382",
+            "count" : "1"
+          }, {
+            "item" : "456",
+            "count" : "1"
+          }, {
+            "item" : "98",
+            "count" : "1"
+          }, {
+            "item" : "339",
+            "count" : "1"
+          }, {
+            "item" : "447",
+            "count" : "1"
+          }, {
+            "item" : "271",
+            "count" : "1"
+          }, {
+            "item" : "29; 239",
+            "count" : "1"
+          }, {
+            "item" : "426",
+            "count" : "1"
+          }, {
+            "item" : "461",
+            "count" : "1"
+          }, {
+            "item" : "262",
+            "count" : "1"
+          }, {
+            "item" : "505",
+            "count" : "1"
+          }, {
+            "item" : "90",
+            "count" : "1"
+          }, {
+            "item" : "16",
+            "count" : "1"
+          }, {
+            "item" : "257",
+            "count" : "1"
+          }, {
+            "item" : "344",
+            "count" : "1"
+          }, {
+            "item" : "71",
+            "count" : "1"
+          }, {
+            "item" : "210",
+            "count" : "1"
+          }, {
+            "item" : "123",
+            "count" : "1"
+          }, {
+            "item" : "274; 281; 462",
+            "count" : "1"
+          }, {
+            "item" : "75",
+            "count" : "1"
+          } ],
+          "smallest" : "1",
+          "count" : "445",
+          "cardinality" : "445"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "center"
+        }
+      }, {
+        "id" : 593796681,
+        "name" : "GTFS Stop IDs",
+        "dataTypeName" : "text",
+        "description" : "The GTFS Stop ID or IDs for the station. If it is a station complex, multiple IDs are shown, separated by a semi-colon. ",
+        "fieldName" : "gtfs_stop_ids",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191186,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "S31",
+          "null" : "0",
+          "top" : [ {
+            "item" : "A18",
+            "count" : "1"
+          }, {
+            "item" : "247",
+            "count" : "1"
+          }, {
+            "item" : "121",
+            "count" : "1"
+          }, {
+            "item" : "604",
+            "count" : "1"
+          }, {
+            "item" : "F39",
+            "count" : "1"
+          }, {
+            "item" : "726",
+            "count" : "1"
+          }, {
+            "item" : "M06",
+            "count" : "1"
+          }, {
+            "item" : "F15; M18",
+            "count" : "1"
+          }, {
+            "item" : "A49",
+            "count" : "1"
+          }, {
+            "item" : "115",
+            "count" : "1"
+          }, {
+            "item" : "D10",
+            "count" : "1"
+          }, {
+            "item" : "G36",
+            "count" : "1"
+          }, {
+            "item" : "S23",
+            "count" : "1"
+          }, {
+            "item" : "627",
+            "count" : "1"
+          }, {
+            "item" : "J20",
+            "count" : "1"
+          }, {
+            "item" : "134",
+            "count" : "1"
+          }, {
+            "item" : "F02",
+            "count" : "1"
+          }, {
+            "item" : "112; A09",
+            "count" : "1"
+          }, {
+            "item" : "H06",
+            "count" : "1"
+          }, {
+            "item" : "F12",
+            "count" : "1"
+          } ],
+          "smallest" : "101",
+          "count" : "445",
+          "cardinality" : "445"
+        },
+        "format" : {
+          "align" : "center"
+        }
+      }, {
+        "id" : 593796682,
+        "name" : "Borough",
+        "dataTypeName" : "text",
+        "description" : "The borough the station is in. Bx for Bronx, B for Brooklyn, M for Manhattan, Q for Queens, SI for Staten Island. ",
+        "fieldName" : "borough",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191199,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "SI",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Bk",
+            "count" : "156"
+          }, {
+            "item" : "M",
+            "count" : "121"
+          }, {
+            "item" : "Q",
+            "count" : "79"
+          }, {
+            "item" : "Bx",
+            "count" : "68"
+          }, {
+            "item" : "SI",
+            "count" : "21"
+          } ],
+          "smallest" : "Bk",
+          "count" : "445",
+          "cardinality" : "5"
+        },
+        "format" : {
+          "align" : "center"
+        }
+      }, {
+        "id" : 593796689,
+        "name" : "CBD",
+        "dataTypeName" : "text",
+        "description" : "This indicates whether or not a station is in Manhattan’s Central Business District (CBD). This value is either TRUE or FALSE.",
+        "fieldName" : "cbd",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 153065384,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "True",
+          "null" : "0",
+          "top" : [ {
+            "item" : "False",
+            "count" : "380"
+          }, {
+            "item" : "True",
+            "count" : "65"
+          } ],
+          "smallest" : "False",
+          "count" : "445",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 593796683,
+        "name" : "Daytime Routes",
+        "dataTypeName" : "text",
+        "description" : "The subway routes that serve the station during weekdays.",
+        "fieldName" : "daytime_routes",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191189,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "SIR",
+          "null" : "0",
+          "top" : [ {
+            "item" : "6",
+            "count" : "29"
+          }, {
+            "item" : "1",
+            "count" : "29"
+          }, {
+            "item" : "2 5",
+            "count" : "25"
+          }, {
+            "item" : "SIR",
+            "count" : "21"
+          }, {
+            "item" : "A",
+            "count" : "21"
+          }, {
+            "item" : "F",
+            "count" : "20"
+          }, {
+            "item" : "L",
+            "count" : "18"
+          }, {
+            "item" : "7",
+            "count" : "16"
+          }, {
+            "item" : "D",
+            "count" : "12"
+          }, {
+            "item" : "Q",
+            "count" : "12"
+          }, {
+            "item" : "J Z",
+            "count" : "12"
+          }, {
+            "item" : "4",
+            "count" : "11"
+          }, {
+            "item" : "3",
+            "count" : "11"
+          }, {
+            "item" : "G",
+            "count" : "10"
+          }, {
+            "item" : "2 3",
+            "count" : "10"
+          }, {
+            "item" : "C",
+            "count" : "10"
+          }, {
+            "item" : "M R",
+            "count" : "10"
+          }, {
+            "item" : "B D",
+            "count" : "10"
+          }, {
+            "item" : "R",
+            "count" : "9"
+          }, {
+            "item" : "N",
+            "count" : "8"
+          } ],
+          "smallest" : "1",
+          "count" : "445",
+          "cardinality" : "94"
+        },
+        "format" : { }
+      }, {
+        "id" : 593796684,
+        "name" : "Structure Type",
+        "dataTypeName" : "text",
+        "description" : "The type of structure the subway station is located on or in (At Grade, Elevated, Embankment, Open Cut, Subway, Viaduct, etc.). If it is a station complex, and the component stations have different structure types, both are noted, separated by a semi-colon.",
+        "fieldName" : "structure_type",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191188,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "Viaduct",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Subway",
+            "count" : "235"
+          }, {
+            "item" : "Elevated",
+            "count" : "136"
+          }, {
+            "item" : "Open Cut",
+            "count" : "37"
+          }, {
+            "item" : "At Grade",
+            "count" : "11"
+          }, {
+            "item" : "Viaduct",
+            "count" : "11"
+          }, {
+            "item" : "Elevated; Subway",
+            "count" : "6"
+          }, {
+            "item" : "Embankment",
+            "count" : "6"
+          }, {
+            "item" : "Subway; Viaduct",
+            "count" : "1"
+          }, {
+            "item" : "Open Cut; Subway",
+            "count" : "1"
+          }, {
+            "item" : "Elevated; Open Cut",
+            "count" : "1"
+          } ],
+          "smallest" : "At Grade",
+          "count" : "445",
+          "cardinality" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 593796685,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "The latitude for the centroid of the station complex.",
+        "fieldName" : "latitude",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 149191200,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "40.903125",
+          "null" : "0",
+          "top" : [ {
+            "item" : "40.873412",
+            "count" : "1"
+          }, {
+            "item" : "40.636949",
+            "count" : "1"
+          }, {
+            "item" : "40.87785",
+            "count" : "1"
+          }, {
+            "item" : "40.516578",
+            "count" : "1"
+          }, {
+            "item" : "40.679843",
+            "count" : "1"
+          }, {
+            "item" : "40.644031",
+            "count" : "1"
+          }, {
+            "item" : "40.857192",
+            "count" : "1"
+          }, {
+            "item" : "40.690635",
+            "count" : "1"
+          }, {
+            "item" : "40.793919",
+            "count" : "1"
+          }, {
+            "item" : "40.723402",
+            "count" : "1"
+          }, {
+            "item" : "40.847391",
+            "count" : "1"
+          }, {
+            "item" : "40.640927",
+            "count" : "1"
+          }, {
+            "item" : "40.693342",
+            "count" : "1"
+          }, {
+            "item" : "40.84848",
+            "count" : "1"
+          }, {
+            "item" : "40.70026",
+            "count" : "1"
+          }, {
+            "item" : "40.655292",
+            "count" : "1"
+          }, {
+            "item" : "40.71870125",
+            "count" : "1"
+          }, {
+            "item" : "40.758663",
+            "count" : "1"
+          }, {
+            "item" : "40.812118",
+            "count" : "1"
+          }, {
+            "item" : "40.707557",
+            "count" : "1"
+          } ],
+          "smallest" : "40.512764",
+          "count" : "445",
+          "cardinality" : "445"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "right"
+        }
+      }, {
+        "id" : 593796686,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "The longitude for the centroid of the station complex.",
+        "fieldName" : "longitude",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 149191195,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "-73.755405",
+          "null" : "0",
+          "top" : [ {
+            "item" : "-73.961376",
+            "count" : "1"
+          }, {
+            "item" : "-73.936245",
+            "count" : "1"
+          }, {
+            "item" : "-74.011719",
+            "count" : "1"
+          }, {
+            "item" : "-74.013329",
+            "count" : "1"
+          }, {
+            "item" : "-73.979917",
+            "count" : "1"
+          }, {
+            "item" : "-73.837324",
+            "count" : "1"
+          }, {
+            "item" : "-73.858992",
+            "count" : "1"
+          }, {
+            "item" : "-73.877223",
+            "count" : "1"
+          }, {
+            "item" : "-73.836322",
+            "count" : "1"
+          }, {
+            "item" : "-73.891865",
+            "count" : "1"
+          }, {
+            "item" : "-73.941514",
+            "count" : "1"
+          }, {
+            "item" : "-73.890064",
+            "count" : "1"
+          }, {
+            "item" : "-73.995657",
+            "count" : "1"
+          }, {
+            "item" : "-73.979493",
+            "count" : "1"
+          }, {
+            "item" : "-73.961495",
+            "count" : "1"
+          }, {
+            "item" : "-73.984264",
+            "count" : "1"
+          }, {
+            "item" : "-73.94425",
+            "count" : "1"
+          }, {
+            "item" : "-73.986122",
+            "count" : "1"
+          }, {
+            "item" : "-73.972361",
+            "count" : "1"
+          }, {
+            "item" : "-73.928781",
+            "count" : "1"
+          } ],
+          "smallest" : "-74.251961",
+          "count" : "445",
+          "cardinality" : "445"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "right"
+        }
+      }, {
+        "id" : 593796687,
+        "name" : "ADA",
+        "dataTypeName" : "text",
+        "description" : "0 if the station is not ADA-accessible, 1 if the station is fully accessible, 2 if the station is partially accessible.",
+        "fieldName" : "ada",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191190,
+        "cachedContents" : {
+          "non_null" : "445",
+          "largest" : "2",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "317"
+          }, {
+            "item" : "1",
+            "count" : "114"
+          }, {
+            "item" : "2",
+            "count" : "14"
+          } ],
+          "smallest" : "0",
+          "count" : "445",
+          "cardinality" : "3"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "center"
+        }
+      }, {
+        "id" : 593796688,
+        "name" : "ADA Notes",
+        "dataTypeName" : "text",
+        "description" : "Notes on the direction a station is accessible in if it is only accessible in one direction or for a particular platform.",
+        "fieldName" : "ada_notes",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149191187,
+        "cachedContents" : {
+          "non_null" : "14",
+          "largest" : "Uptown only",
+          "null" : "431",
+          "top" : [ {
+            "item" : "Downtown only",
+            "count" : "2"
+          }, {
+            "item" : "Outbound only",
+            "count" : "2"
+          }, {
+            "item" : "Manhattan-bound only",
+            "count" : "1"
+          }, {
+            "item" : "N Q R W accessible; L accessible; 4 5 6 not accessible",
+            "count" : "1"
+          }, {
+            "item" : "R not accessible; 2 3 accessible; 4 5 Manhattan-bound only",
+            "count" : "1"
+          }, {
+            "item" : "R W accessible; A C not accessible; E accessible; 2 3 not accessible",
+            "count" : "1"
+          }, {
+            "item" : "R W not accessible; 1 accessible",
+            "count" : "1"
+          }, {
+            "item" : "R W not accessible; N Q not accessible; J Z not accessible; 6 accessible",
+            "count" : "1"
+          }, {
+            "item" : "Uptown local only",
+            "count" : "1"
+          }, {
+            "item" : "A C accessible; 1 not accessible",
+            "count" : "1"
+          }, {
+            "item" : "Uptown only",
+            "count" : "1"
+          }, {
+            "item" : "E M Manhattan-bound only; G accessible; 7 accessible",
+            "count" : "1"
+          } ],
+          "smallest" : "A C accessible; 1 not accessible",
+          "count" : "445",
+          "cardinality" : "12"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "attachments" : [ {
+          "filename" : "MTA_SubwayStationsAndComplexes_Overview.pdf",
+          "assetId" : "360eaaac-45b1-4590-b233-09e634624cec",
+          "name" : "MTA_SubwayStationsAndComplexes_Overview.pdf"
+        }, {
+          "filename" : "MTA_SubwayStationsAndComplexes_DataDictionary.pdf",
+          "assetId" : "2c0d67fb-74f8-463c-88c1-160cd01b145d",
+          "name" : "MTA_SubwayStationsAndComplexes_DataDictionary.pdf"
+        } ],
+        "custom_fields" : {
+          "Dataset Summary" : {
+            "Posting Frequency" : "As needed",
+            "Organization" : "New York City Transit",
+            "Contact Information" : "OpenData@mtahq.org",
+            "Time Period" : "Current",
+            "Coverage" : "New York City",
+            "Granularity" : "Subway station complex",
+            "Dataset Owner" : "Metropolitan Transportation Authority"
+          },
+          "Additional Resources" : {
+            "See Also" : "https://metrics.mta.info/"
+          },
+          "Dataset Information" : {
+            "Agency" : "Metropolitan Transportation Authority"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "screenName" : "NY Open Data",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "screenName" : "NY Open Data",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "new york city transit", "nyct", "subway", "staten island railway", "sir", "stations", "station complexes", "coordinates", "subway stations" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-6mqq~jebp_kdux", "00000000-0000-0000-86F7-993FF4D14E37", 0, 1746418502, null, 1746418502, null, "{ }", "398", "False", "1", "77 St", "(6)", "77 St", "398", "627", "M", "False", "6", "Subway", "40.77362", "-73.959874", "0", null ]
+, [ "row-sstr~rp4i.n92g", "00000000-0000-0000-826F-58FCEBDF2F08", 0, 1746418502, null, 1746418502, null, "{ }", "399", "False", "1", "68 St-Hunter College", "(6)", "68 St-Hunter College", "399", "628", "M", "False", "6", "Subway", "40.768141", "-73.96387", "1", null ]
+, [ "row-jwdy_be7j-achd", "00000000-0000-0000-3F8C-FE350EB5CADA", 0, 1746418502, null, 1746418502, null, "{ }", "403", "False", "1", "33 St", "(6)", "33 St", "403", "632", "M", "True", "6", "Subway", "40.746081", "-73.982076", "0", null ]
+, [ "row-vck4~rmce_hu5g", "00000000-0000-0000-EFF1-81783F4B3F85", 0, 1746418502, null, 1746418502, null, "{ }", "404", "False", "1", "28 St", "(6)", "28 St", "404", "633", "M", "True", "6", "Subway", "40.74307", "-73.984264", "2", "Downtown only" ]
+, [ "row-xyj3_gm5u~59dn", "00000000-0000-0000-7E0F-866BE527C044", 0, 1746418502, null, 1746418502, null, "{ }", "405", "False", "1", "23 St", "(6)", "23 St", "405", "634", "M", "True", "6", "Subway", "40.739864", "-73.986599", "1", null ]
+, [ "row-277c_u3nm~kv7c", "00000000-0000-0000-8A08-3F531B87A8D2", 0, 1746418502, null, 1746418502, null, "{ }", "407", "False", "1", "Astor Pl", "(6)", "Astor Pl", "407", "636", "M", "True", "6", "Subway", "40.730054", "-73.99107", "0", null ]
+, [ "row-bywe~8dri~skxh", "00000000-0000-0000-9998-62FBD4644D88", 0, 1746418502, null, 1746418502, null, "{ }", "409", "False", "1", "Spring St", "(6)", "Spring St", "409", "638", "M", "True", "6", "Subway", "40.722301", "-73.997141", "0", null ]
+, [ "row-qsz7-nsty_w9ne", "00000000-0000-0000-0491-79974F724DF3", 0, 1746418502, null, 1746418502, null, "{ }", "413", "False", "1", "Wall St", "(4,5)", "Wall St", "413", "419", "M", "True", "4 5", "Subway", "40.707557", "-74.011862", "0", null ]
+, [ "row-javx-w6vx_zkyp", "00000000-0000-0000-63D2-AD89346AB113", 0, 1746418502, null, 1746418502, null, "{ }", "414", "False", "1", "Bowling Green", "(4,5)", "Bowling Green", "414", "420", "M", "True", "4 5", "Subway", "40.704817", "-74.014065", "1", null ]
+, [ "row-55zz_82ny_tgmf", "00000000-0000-0000-11ED-EF7653B0D233", 0, 1746418502, null, 1746418502, null, "{ }", "416", "False", "1", "Wakefield-241 St", "(2)", "Wakefield-241 St", "416", "201", "Bx", "False", "2", "Elevated", "40.903125", "-73.85062", "0", null ]
+, [ "row-ymgz.wjj4~bgus", "00000000-0000-0000-FBEA-4C226ADFB79B", 0, 1746418502, null, 1746418502, null, "{ }", "417", "False", "1", "Nereid Av", "(2,5)", "Nereid Av", "417", "204", "Bx", "False", "2 5", "Elevated", "40.898379", "-73.854376", "0", null ]
+, [ "row-baz4.ej3a~s83r", "00000000-0000-0000-49A9-7E3A164F7BA2", 0, 1746418502, null, 1746418502, null, "{ }", "418", "False", "1", "233 St", "(2,5)", "233 St", "418", "205", "Bx", "False", "2 5", "Elevated", "40.893193", "-73.857473", "1", null ]
+, [ "row-mjku~wrkx.7i4g", "00000000-0000-0000-907B-6614D4BDFA95", 0, 1746418502, null, 1746418502, null, "{ }", "419", "False", "1", "225 St", "(2,5)", "225 St", "419", "206", "Bx", "False", "2 5", "Elevated", "40.888022", "-73.860341", "0", null ]
+, [ "row-27hn_gtht~3p2v", "00000000-0000-0000-66B5-36A8A85F70FB", 0, 1746418502, null, 1746418502, null, "{ }", "420", "False", "1", "219 St", "(2,5)", "219 St", "420", "207", "Bx", "False", "2 5", "Elevated", "40.883895", "-73.862633", "0", null ]
+, [ "row-zrg6~4w6r~7nvu", "00000000-0000-0000-FD09-46F5162295C6", 0, 1746418502, null, 1746418502, null, "{ }", "421", "False", "1", "Gun Hill Rd", "(2,5)", "Gun Hill Rd", "421", "208", "Bx", "False", "2 5", "Elevated", "40.87785", "-73.866256", "1", null ]
+, [ "row-s425-y4jh~qq4z", "00000000-0000-0000-E699-1C1152A4A78D", 0, 1746418502, null, 1746418502, null, "{ }", "422", "False", "1", "Burke Av", "(2,5)", "Burke Av", "422", "209", "Bx", "False", "2 5", "Elevated", "40.871356", "-73.867164", "0", null ]
+, [ "row-v9dp.74bj~c4ss", "00000000-0000-0000-FDC2-FACA66BA3E61", 0, 1746418502, null, 1746418502, null, "{ }", "423", "False", "1", "Allerton Av", "(2,5)", "Allerton Av", "423", "210", "Bx", "False", "2 5", "Elevated", "40.865462", "-73.867352", "0", null ]
+, [ "row-ey3n~4cfh-dhai", "00000000-0000-0000-94CD-531B6039C4FA", 0, 1746418502, null, 1746418502, null, "{ }", "424", "False", "1", "Pelham Pkwy", "(2,5)", "Pelham Pkwy", "424", "211", "Bx", "False", "2 5", "Elevated", "40.857192", "-73.867615", "1", null ]
+, [ "row-pvk3_iu4s.tnzf", "00000000-0000-0000-49E4-80052A8A9C72", 0, 1746418502, null, 1746418502, null, "{ }", "425", "False", "1", "Bronx Park East", "(2,5)", "Bronx Park East", "425", "212", "Bx", "False", "2 5", "Elevated", "40.848828", "-73.868457", "0", null ]
+, [ "row-cfrz-t5cr.kuyv", "00000000-0000-0000-A5D2-9F9A5E3F0476", 0, 1746418502, null, 1746418502, null, "{ }", "426", "False", "1", "E 180 St", "(2,5)", "E 180 St", "426", "213", "Bx", "False", "2 5", "Elevated", "40.841894", "-73.873488", "1", null ]
+, [ "row-a4uz-gwvn~29xm", "00000000-0000-0000-03C1-6685AB84DD07", 0, 1746418502, null, 1746418502, null, "{ }", "427", "False", "1", "West Farms Sq-E Tremont Av", "(2,5)", "West Farms Sq-E Tremont Av", "427", "214", "Bx", "False", "2 5", "Elevated", "40.840295", "-73.880049", "0", null ]
+, [ "row-yy42-9aer-vhwr", "00000000-0000-0000-7A59-B56B6A377E0D", 0, 1746418502, null, 1746418502, null, "{ }", "428", "False", "1", "174 St", "(2,5)", "174 St", "428", "215", "Bx", "False", "2 5", "Elevated", "40.837288", "-73.887734", "0", null ]
+, [ "row-hjkx~dm3u.dj5i", "00000000-0000-0000-3D79-5BFE11FCC06D", 0, 1746418502, null, 1746418502, null, "{ }", "429", "False", "1", "Freeman St", "(2,5)", "Freeman St", "429", "216", "Bx", "False", "2 5", "Elevated", "40.829993", "-73.891865", "0", null ]
+, [ "row-iffz.i5zh_d2ve", "00000000-0000-0000-3106-30050B971352", 0, 1746418502, null, 1746418502, null, "{ }", "430", "False", "1", "Simpson St", "(2,5)", "Simpson St", "430", "217", "Bx", "False", "2 5", "Elevated", "40.824073", "-73.893064", "1", null ]
+, [ "row-wexd_9tc9_ckcd", "00000000-0000-0000-7C72-2C6383909F47", 0, 1746418502, null, 1746418502, null, "{ }", "431", "False", "1", "Intervale Av", "(2,5)", "Intervale Av", "431", "218", "Bx", "False", "2 5", "Elevated", "40.822181", "-73.896736", "0", null ]
+, [ "row-c2ta~nzwy-j5rn", "00000000-0000-0000-A255-89F1C79C0057", 0, 1746418502, null, 1746418502, null, "{ }", "432", "False", "1", "Prospect Av", "(2,5)", "Prospect Av", "432", "219", "Bx", "False", "2 5", "Elevated", "40.819585", "-73.90177", "0", null ]
+, [ "row-q5fq-x9mm.u2rd", "00000000-0000-0000-9361-652F8ED8E089", 0, 1746418502, null, 1746418502, null, "{ }", "433", "False", "1", "Jackson Av", "(2,5)", "Jackson Av", "433", "220", "Bx", "False", "2 5", "Elevated", "40.81649", "-73.907807", "0", null ]
+, [ "row-npue~s7s8_6496", "00000000-0000-0000-E2B1-9250402DB428", 0, 1746418502, null, 1746418502, null, "{ }", "434", "False", "1", "3 Av-149 St", "(2,5)", "3 Av-149 St", "434", "221", "Bx", "False", "2 5", "Subway", "40.816109", "-73.917757", "1", null ]
+, [ "row-3icz~2k5m~gm3y", "00000000-0000-0000-C4D5-78AE073AF0A5", 0, 1746418502, null, 1746418502, null, "{ }", "436", "False", "1", "Harlem-148 St", "(3)", "Harlem-148 St", "436", "301", "M", "False", "3", "Subway", "40.82388", "-73.93647", "0", null ]
+, [ "row-rhn7_5xz5-nh3c", "00000000-0000-0000-39A3-9A1C0091FB84", 0, 1746418502, null, 1746418502, null, "{ }", "437", "False", "1", "145 St", "(3)", "145 St", "437", "302", "M", "False", "3", "Subway", "40.820421", "-73.936245", "0", null ]
+, [ "row-ip2d.f8vn.c4ve", "00000000-0000-0000-39AF-18878F0FB40C", 0, 1746418502, null, 1746418502, null, "{ }", "438", "False", "1", "135 St", "(2,3)", "135 St", "438", "224", "M", "False", "2 3", "Subway", "40.814229", "-73.94077", "1", null ]
+, [ "row-i9bc-v75t.a5qb", "00000000-0000-0000-75DA-B5106EF5C2D3", 0, 1746418502, null, 1746418502, null, "{ }", "439", "False", "1", "125 St", "(2,3)", "125 St", "439", "225", "M", "False", "2 3", "Subway", "40.807754", "-73.945495", "0", null ]
+, [ "row-fmvc_fb6v.e7uz", "00000000-0000-0000-6FFF-4E66EB374914", 0, 1746418502, null, 1746418502, null, "{ }", "440", "False", "1", "116 St", "(2,3)", "116 St", "440", "226", "M", "False", "2 3", "Subway", "40.802098", "-73.949625", "0", null ]
+, [ "row-ya3d~essv~sruv", "00000000-0000-0000-AC16-36C36638B01C", 0, 1746418502, null, 1746418502, null, "{ }", "441", "False", "1", "Central Park North (110 St)", "(110,St)", "Central Park North (110 St)", "441", "227", "M", "False", "2 3", "Subway", "40.799075", "-73.951822", "0", null ]
+, [ "row-a8me-adx5~eprc", "00000000-0000-0000-CD29-260C2533024F", 0, 1746418502, null, 1746418502, null, "{ }", "442", "False", "1", "Eastchester-Dyre Av", "(5)", "Eastchester-Dyre Av", "442", "501", "Bx", "False", "5", "At Grade", "40.8883", "-73.830834", "0", null ]
+, [ "row-sbkg_q9x2-yp3u", "00000000-0000-0000-089A-42BF9EB0BC6F", 0, 1746418502, null, 1746418502, null, "{ }", "443", "False", "1", "Baychester Av", "(5)", "Baychester Av", "443", "502", "Bx", "False", "5", "Open Cut", "40.878663", "-73.838591", "0", null ]
+, [ "row-692t~7dv6.c4t7", "00000000-0000-0000-2B60-3E22883C8033", 0, 1746418502, null, 1746418502, null, "{ }", "444", "False", "1", "Gun Hill Rd", "(5)", "Gun Hill Rd", "444", "503", "Bx", "False", "5", "Open Cut", "40.869526", "-73.846384", "1", null ]
+, [ "row-nhdu_r73v_3cph", "00000000-0000-0000-4E97-91ADC436CF09", 0, 1746418502, null, 1746418502, null, "{ }", "445", "False", "1", "Pelham Pkwy", "(5)", "Pelham Pkwy", "445", "504", "Bx", "False", "5", "Open Cut", "40.858985", "-73.855359", "0", null ]
+, [ "row-bvyv.4ias_2h5u", "00000000-0000-0000-9395-1079E650449A", 0, 1746418502, null, 1746418502, null, "{ }", "446", "False", "1", "Morris Park", "(5)", "Morris Park", "446", "505", "Bx", "False", "5", "Open Cut", "40.854364", "-73.860495", "0", null ]
+, [ "row-dw4k-vcev_mxp4", "00000000-0000-0000-E153-44D05A1C309E", 0, 1746418502, null, 1746418502, null, "{ }", "447", "False", "1", "Flushing-Main St", "(7)", "Flushing-Main St", "447", "701", "Q", "False", "7", "Subway", "40.7596", "-73.83003", "1", null ]
+, [ "row-ypcq~5g55.mupa", "00000000-0000-0000-76E8-C8B6EABCD4D5", 0, 1746418502, null, 1746418502, null, "{ }", "448", "False", "1", "Mets-Willets Point", "(7)", "Mets-Willets Point", "448", "702", "Q", "False", "7", "Elevated", "40.754622", "-73.845625", "0", null ]
+, [ "row-hdxw-5bxi~nady", "00000000-0000-0000-41F4-8F53C0710212", 0, 1746418502, null, 1746418502, null, "{ }", "449", "False", "1", "111 St", "(7)", "111 St", "449", "705", "Q", "False", "7", "Elevated", "40.75173", "-73.855334", "0", null ]
+, [ "row-qwau_dvdm_mg6s", "00000000-0000-0000-D00D-92B16002F314", 0, 1746418502, null, 1746418502, null, "{ }", "450", "False", "1", "103 St-Corona Plaza", "(7)", "103 St-Corona Plaza", "450", "706", "Q", "False", "7", "Elevated", "40.749865", "-73.8627", "0", null ]
+, [ "row-27p4~8jst-3x2h", "00000000-0000-0000-3D7D-E6F1FFC58A98", 0, 1746418502, null, 1746418502, null, "{ }", "451", "False", "1", "Junction Blvd", "(7)", "Junction Blvd", "451", "707", "Q", "False", "7", "Elevated", "40.749145", "-73.869527", "1", null ]
+, [ "row-jkhg.6nt6~gjxt", "00000000-0000-0000-37CB-F5694540AD43", 0, 1746418502, null, 1746418502, null, "{ }", "452", "False", "1", "90 St-Elmhurst Av", "(7)", "90 St-Elmhurst Av", "452", "708", "Q", "False", "7", "Elevated", "40.748408", "-73.876613", "0", null ]
+, [ "row-5aav~nfmu~zbhw", "00000000-0000-0000-64B1-94BDF1C5FDE6", 0, 1746418502, null, 1746418502, null, "{ }", "453", "False", "1", "82 St-Jackson Hts", "(7)", "82 St-Jackson Hts", "453", "709", "Q", "False", "7", "Elevated", "40.747659", "-73.883697", "0", null ]
+, [ "row-5a77~8re3.g8x8", "00000000-0000-0000-3DDF-A99C72A4D759", 0, 1746418502, null, 1746418502, null, "{ }", "455", "False", "1", "69 St", "(7)", "69 St", "455", "711", "Q", "False", "7", "Elevated", "40.746325", "-73.896403", "0", null ]
+, [ "row-n256.qm39-rq3i", "00000000-0000-0000-EB13-DA3AA5AA0E80", 0, 1746418502, null, 1746418502, null, "{ }", "456", "False", "1", "61 St-Woodside", "(7)", "61 St-Woodside", "456", "712", "Q", "False", "7", "Elevated", "40.74563", "-73.902984", "1", null ]
+, [ "row-jm46.k8ev.pgfh", "00000000-0000-0000-4FC1-F8FA91BA9F46", 0, 1746418502, null, 1746418502, null, "{ }", "457", "False", "1", "52 St", "(7)", "52 St", "457", "713", "Q", "False", "7", "Elevated", "40.744149", "-73.912549", "0", null ]
+, [ "row-h8yc-hdfq_6b83", "00000000-0000-0000-30A0-0152D36BE73A", 0, 1746418502, null, 1746418502, null, "{ }", "458", "False", "1", "46 St-Bliss St", "(7)", "46 St-Bliss St", "458", "714", "Q", "False", "7", "Elevated", "40.743132", "-73.918435", "0", null ]
+, [ "row-jvmk_tvk4-mhwv", "00000000-0000-0000-8AF4-A022947AD929", 0, 1746418502, null, 1746418502, null, "{ }", "459", "False", "1", "40 St-Lowery St", "(7)", "40 St-Lowery St", "459", "715", "Q", "False", "7", "Elevated", "40.743781", "-73.924016", "0", null ]
+, [ "row-uqi7.ufk6-pjzf", "00000000-0000-0000-3D25-C83B4943EACD", 0, 1746418502, null, 1746418502, null, "{ }", "460", "False", "1", "33 St-Rawson St", "(7)", "33 St-Rawson St", "460", "716", "Q", "False", "7", "Elevated", "40.744587", "-73.930997", "0", null ]
+, [ "row-tm8a-kv8d-5wwq", "00000000-0000-0000-2304-5DF9E81D65F3", 0, 1746418502, null, 1746418502, null, "{ }", "461", "False", "2", "Queensboro Plaza", "(7,N,W)", "Queensboro Plaza", "461", "718; R09", "Q", "False", "7 N W", "Elevated", "40.750582", "-73.940202", "1", null ]
+, [ "row-w5ii~8fkm-mn4m", "00000000-0000-0000-F0C0-4772092A341E", 0, 1746418502, null, 1746418502, null, "{ }", "463", "False", "1", "Hunters Point Av", "(7)", "Hunters Point Av", "463", "720", "Q", "False", "7", "Subway", "40.742216", "-73.948916", "0", null ]
+, [ "row-ujqe~dehd-urdr", "00000000-0000-0000-096B-39399D7D1CEB", 0, 1746418502, null, 1746418502, null, "{ }", "464", "False", "1", "Vernon Blvd-Jackson Av", "(7)", "Vernon Blvd-Jackson Av", "464", "721", "Q", "False", "7", "Subway", "40.742626", "-73.953581", "0", null ]
+, [ "row-sam8-rky6-dgk4", "00000000-0000-0000-69BF-1E0255662E08", 0, 1746418502, null, 1746418502, null, "{ }", "471", "False", "1", "34 St-Hudson Yards", "(7)", "34 St-Hudson Yards", "471", "726", "M", "True", "7", "Subway", "40.755882", "-74.00191", "1", null ]
+, [ "row-zkke-ftfr.ezuf", "00000000-0000-0000-2D05-8810EE64FA90", 0, 1746418502, null, 1746418502, null, "{ }", "475", "False", "1", "96 St", "(Q)", "96 St", "475", "Q05", "M", "False", "Q", "Subway", "40.784318", "-73.947152", "1", null ]
+, [ "row-bp59_jipz-ntun", "00000000-0000-0000-B9C8-6EE7C805499B", 0, 1746418502, null, 1746418502, null, "{ }", "476", "False", "1", "86 St", "(Q)", "86 St", "476", "Q04", "M", "False", "Q", "Subway", "40.777891", "-73.951787", "1", null ]
+, [ "row-7iiy_d38t~vvbx", "00000000-0000-0000-B5C4-2FF26910AC04", 0, 1746418502, null, 1746418502, null, "{ }", "477", "False", "1", "72 St", "(Q)", "72 St", "477", "Q03", "M", "False", "Q", "Subway", "40.768799", "-73.958424", "1", null ]
+, [ "row-tkqu.phm7~2eyf", "00000000-0000-0000-0125-DE0B0E84197E", 0, 1746418502, null, 1746418502, null, "{ }", "501", "False", "1", "St George", "(SIR)", "St George", "501", "S31", "SI", "False", "SIR", "Open Cut", "40.643748", "-74.073643", "1", null ]
+, [ "row-asjw-ycgi.pn98", "00000000-0000-0000-22C5-8825F4E786B6", 0, 1746418502, null, 1746418502, null, "{ }", "502", "False", "1", "Tompkinsville", "(SIR)", "Tompkinsville", "502", "S30", "SI", "False", "SIR", "At Grade", "40.636949", "-74.074835", "0", null ]
+, [ "row-fp79~y5tw-itpr", "00000000-0000-0000-C217-AFD1CCD4E715", 0, 1746418502, null, 1746418502, null, "{ }", "503", "False", "1", "Stapleton", "(SIR)", "Stapleton", "503", "S29", "SI", "False", "SIR", "Elevated", "40.627915", "-74.075162", "0", null ]
+, [ "row-qr3m-2vty-949b", "00000000-0000-0000-B225-FBDA4B1B04E4", 0, 1746418502, null, 1746418502, null, "{ }", "504", "False", "1", "Clifton", "(SIR)", "Clifton", "504", "S28", "SI", "False", "SIR", "Elevated", "40.621319", "-74.071402", "0", null ]
+, [ "row-66pe-xp85.n2gp", "00000000-0000-0000-016C-756B6B58E5B8", 0, 1746418502, null, 1746418502, null, "{ }", "505", "False", "1", "Grasmere", "(SIR)", "Grasmere", "505", "S27", "SI", "False", "SIR", "Open Cut", "40.603117", "-74.084087", "0", null ]
+, [ "row-zwxq~wtkq-wamj", "00000000-0000-0000-CE49-C62BA4533E0A", 0, 1746418502, null, 1746418502, null, "{ }", "506", "False", "1", "Old Town", "(SIR)", "Old Town", "506", "S26", "SI", "False", "SIR", "Embankment", "40.596612", "-74.087368", "0", null ]
+, [ "row-mtz3-t837.sm82", "00000000-0000-0000-E23D-F0FB35398E01", 0, 1746418502, null, 1746418502, null, "{ }", "507", "False", "1", "Dongan Hills", "(SIR)", "Dongan Hills", "507", "S25", "SI", "False", "SIR", "Embankment", "40.588849", "-74.09609", "1", null ]
+, [ "row-yhcg~dmrw~zvef", "00000000-0000-0000-A550-510B97BEFE4E", 0, 1746418502, null, 1746418502, null, "{ }", "508", "False", "1", "Jefferson Av", "(SIR)", "Jefferson Av", "508", "S24", "SI", "False", "SIR", "Embankment", "40.583591", "-74.103338", "0", null ]
+, [ "row-sdn4-yrti-ezkz", "00000000-0000-0000-C5C3-8241BFA7B6F2", 0, 1746418502, null, 1746418502, null, "{ }", "509", "False", "1", "Grant City", "(SIR)", "Grant City", "509", "S23", "SI", "False", "SIR", "Open Cut", "40.578965", "-74.109704", "0", null ]
+, [ "row-wuwt.vgtt-ie9p", "00000000-0000-0000-53F3-F75EC856C38D", 0, 1746418502, null, 1746418502, null, "{ }", "510", "False", "1", "New Dorp", "(SIR)", "New Dorp", "510", "S22", "SI", "False", "SIR", "Open Cut", "40.57348", "-74.11721", "1", null ]
+, [ "row-tfsy-7585_qgcx", "00000000-0000-0000-3CFB-28274C75C5A4", 0, 1746418502, null, 1746418502, null, "{ }", "511", "False", "1", "Oakwood Heights", "(SIR)", "Oakwood Heights", "511", "S21", "SI", "False", "SIR", "Open Cut", "40.56511", "-74.12632", "0", null ]
+, [ "row-28gs_uzt3.sdsm", "00000000-0000-0000-76E4-8BF7D4D5F5A1", 0, 1746418502, null, 1746418502, null, "{ }", "512", "False", "1", "Bay Terrace", "(SIR)", "Bay Terrace", "512", "S20", "SI", "False", "SIR", "Embankment", "40.5564", "-74.136907", "0", null ]
+, [ "row-7fdq_eg9c-4hhi", "00000000-0000-0000-176C-DF512CA69B79", 0, 1746418502, null, 1746418502, null, "{ }", "513", "False", "1", "Great Kills", "(SIR)", "Great Kills", "513", "S19", "SI", "False", "SIR", "Open Cut", "40.551231", "-74.151399", "1", null ]
+, [ "row-8sdb~aqcf-qkme", "00000000-0000-0000-F174-ECB94BB632DA", 0, 1746418502, null, 1746418502, null, "{ }", "514", "False", "1", "Eltingville", "(SIR)", "Eltingville", "514", "S18", "SI", "False", "SIR", "Embankment", "40.544601", "-74.16457", "0", null ]
+, [ "row-dvf2.yubz.gv8q", "00000000-0000-0000-ECDC-1AF5C772A141", 0, 1746418502, null, 1746418502, null, "{ }", "515", "False", "1", "Annadale", "(SIR)", "Annadale", "515", "S17", "SI", "False", "SIR", "Open Cut", "40.54046", "-74.178217", "0", null ]
+, [ "row-9mhy.59h5_vr4d", "00000000-0000-0000-F318-D4C9DA4A5D02", 0, 1746418502, null, 1746418502, null, "{ }", "516", "False", "1", "Huguenot", "(SIR)", "Huguenot", "516", "S16", "SI", "False", "SIR", "Open Cut", "40.533674", "-74.191794", "0", null ]
+, [ "row-evba_ccqt-3n6q", "00000000-0000-0000-A127-E682B8F1E108", 0, 1746418502, null, 1746418502, null, "{ }", "517", "False", "1", "Prince's Bay", "(SIR)", "Prince's Bay", "517", "S15", "SI", "False", "SIR", "Open Cut", "40.525507", "-74.200064", "0", null ]
+, [ "row-2rut.mef6-igti", "00000000-0000-0000-6379-C1953D50B1F6", 0, 1746418502, null, 1746418502, null, "{ }", "518", "False", "1", "Pleasant Plains", "(SIR)", "Pleasant Plains", "518", "S14", "SI", "False", "SIR", "Embankment", "40.52241", "-74.217847", "0", null ]
+, [ "row-z5fp_php2~6j3s", "00000000-0000-0000-0872-7054DB8CD675", 0, 1746418502, null, 1746418502, null, "{ }", "519", "False", "1", "Richmond Valley", "(SIR)", "Richmond Valley", "519", "S13", "SI", "False", "SIR", "Open Cut", "40.519631", "-74.229141", "0", null ]
+, [ "row-dj5m.euph-b8es", "00000000-0000-0000-766B-2D7DEE11319F", 0, 1746418502, null, 1746418502, null, "{ }", "522", "False", "1", "Tottenville", "(SIR)", "Tottenville", "522", "S09", "SI", "False", "SIR", "At Grade", "40.512764", "-74.251961", "1", null ]
+, [ "row-5pp5_w4wi.6d7y", "00000000-0000-0000-FBB7-1AAEDE66DBB5", 0, 1746418502, null, 1746418502, null, "{ }", "523", "False", "1", "Arthur Kill", "(SIR)", "Arthur Kill", "523", "S11", "SI", "False", "SIR", "At Grade", "40.516578", "-74.242096", "1", null ]
+, [ "row-cpfy~z746.b2bm", "00000000-0000-0000-B4E7-012DF960B308", 0, 1746418502, null, 1746418502, null, "{ }", "601", "True", "3", "14 St/6 Av", "(1,2,3,L,F,M)", "14 St; 6 Av", "116; 229; 322", "132; D19; L02", "M", "True", "1 2 3 L F M", "Subway", "40.73779633", "-73.997732", "1", null ]
+, [ "row-wrtv~7nuf_97h7", "00000000-0000-0000-B872-53EE531413C2", 0, 1746418502, null, 1746418502, null, "{ }", "602", "True", "3", "14 St-Union Sq", "(4,5,6,L,N,Q,R,W)", "14 St-Union Sq", "15; 117; 406", "635; L03; R20", "M", "True", "4 5 6 L N Q R W", "Subway", "40.735066", "-73.99041633", "2", "N Q R W accessible; L accessible; 4 5 6 not accessible" ]
+, [ "row-c2sj.pupf.6td5", "00000000-0000-0000-2E5B-76A62706917F", 0, 1746418502, null, 1746418502, null, "{ }", "603", "True", "2", "149 St-Grand Concourse", "(2,4,5)", "149 St-Grand Concourse", "390; 435", "222; 415", "Bx", "False", "2 4 5", "Subway", "40.8183925", "-73.9270345", "0", null ]
+, [ "row-thpu_cas8~az69", "00000000-0000-0000-A1C7-4785942B9C07", 0, 1746418502, null, 1746418502, null, "{ }", "604", "True", "2", "161 St-Yankee Stadium", "(4,B,D)", "161 St-Yankee Stadium", "219; 389", "414; D11", "Bx", "False", "4 B D", "Elevated; Subway", "40.8279495", "-73.925741", "1", null ]
+, [ "row-qjpj-xxu7-cumq", "00000000-0000-0000-C65A-D407A420B971", 0, 1746418502, null, 1746418502, null, "{ }", "605", "True", "2", "168 St-Washington Hts", "(1,A,C)", "168 St; 168 St-Washington Hts", "148; 302", "112; A09", "M", "False", "1 A C", "Subway", "40.8406375", "-73.939847", "2", "A C accessible; 1 not accessible" ]
+, [ "row-4heu_t8v5.3srr", "00000000-0000-0000-2518-3ABFFE4ED521", 0, 1746418502, null, 1746418502, null, "{ }", "606", "True", "3", "Court Sq-23 St", "(7,E,M,G)", "Court Sq; Court Sq-23 St", "274; 281; 462", "719; F09; G22", "Q", "False", "7 E M G", "Elevated; Subway", "40.747141", "-73.945032", "2", "E M Manhattan-bound only; G accessible; 7 accessible" ]
+, [ "row-rce9-djmp~6huy", "00000000-0000-0000-F9F3-68685DD3C988", 0, 1746418502, null, 1746418502, null, "{ }", "607", "True", "2", "34 St-Herald Sq", "(B,D,F,M,N,Q,R,W)", "34 St-Herald Sq", "12; 227", "D17; R17", "M", "True", "B D F M N Q R W", "Subway", "40.749643", "-73.9878865", "1", null ]
+, [ "row-ep29~fk62_khdt", "00000000-0000-0000-5D2B-290C7FD6B5A0", 0, 1746418502, null, 1746418502, null, "{ }", "608", "True", "2", "4 Av-9 St", "(F,G,R)", "4 Av-9 St", "29; 239", "F23; R33", "Bk", "False", "F G R", "Subway; Viaduct", "40.6705595", "-73.9890405", "0", null ]
+, [ "row-zr6w-b648-sm5q", "00000000-0000-0000-AF68-07F122B3F2E4", 0, 1746418502, null, 1746418502, null, "{ }", "609", "True", "2", "42 St-Bryant Pk/5 Av", "(7,B,D,F,M)", "42 St-Bryant Pk; 5 Av", "226; 466", "724; D16", "M", "True", "7 B D F M", "Subway", "40.7540215", "-73.983266", "0", null ]
+, [ "row-rrcw-ug3e.8sdk", "00000000-0000-0000-680E-278EFDC6ED61", 0, 1746418502, null, 1746418502, null, "{ }", "610", "True", "3", "Grand Central-42 St", "(4,5,6,7,S)", "Grand Central-42 St", "402; 465; 469", "631; 723; 901", "M", "True", "4 5 6 7 S", "Subway", "40.751992", "-73.97735933", "1", null ]
+, [ "row-n99w_k6vy-r5kr", "00000000-0000-0000-4E3C-EE8C85D380B2", 0, 1746418502, null, 1746418502, null, "{ }", "611", "True", "5", "Times Sq-42 St/Port Authority Bus Terminal", "(1,2,3,7,A,C,E,N,Q,R,W,S)", "42 St-Port Authority Bus Terminal; Times Sq-42 St", "11; 163; 317; 467; 468", "127; 725; 902; A27; R16", "M", "True", "1 2 3 7 A C E N Q R W S", "Subway", "40.755746", "-73.9875808", "1", null ]
+, [ "row-97cw-sbvg-7ju5", "00000000-0000-0000-4DDD-10BB47D137E1", 0, 1746418502, null, 1746418502, null, "{ }", "612", "True", "2", "Lexington Av/51-53 Sts", "(6,E,M)", "51 St; Lexington Av/53 St", "275; 401", "630; F11", "M", "True", "6 E M", "Subway", "40.7573295", "-73.9704875", "1", null ]
+, [ "row-dycy~qw35_ibe8", "00000000-0000-0000-7B19-B41894C31520", 0, 1746418502, null, 1746418502, null, "{ }", "613", "True", "2", "Lexington Av/59 St", "(4,5,6,N,R,W)", "59 St; Lexington Av/59 St", "7; 400", "629; R11", "M", "True", "4 5 6 N R W", "Subway", "40.762593", "-73.9676125", "0", null ]
+, [ "row-467e_b4p6_a7ym", "00000000-0000-0000-7818-C48BDE670B88", 0, 1746418502, null, 1746418502, null, "{ }", "614", "True", "2", "59 St-Columbus Circle", "(1,A,C,B,D)", "59 St-Columbus Circle", "161; 315", "125; A24", "M", "True", "1 A C B D", "Subway", "40.7682715", "-73.9818325", "1", null ]
+, [ "row-mt5h_n45k_ba4c", "00000000-0000-0000-48F6-2EF2E4340BBA", 0, 1746418502, null, 1746418502, null, "{ }", "615", "True", "2", "62 St/New Utrecht Av", "(D,N)", "62 St; New Utrecht Av", "63; 73", "B16; N04", "Bk", "False", "D N", "Elevated; Open Cut", "40.625657", "-73.996624", "1", null ]
+, [ "row-rkws_krg5_exd4", "00000000-0000-0000-EEDE-890274FC527C", 0, 1746418502, null, 1746418502, null, "{ }", "616", "True", "2", "Jackson Hts-Roosevelt Av/74 St-Broadway", "(7,E,F,M,R)", "74 St-Broadway; Jackson Hts-Roosevelt Av", "267; 454", "710; G14", "Q", "False", "7 E F M R", "Elevated; Subway", "40.746746", "-73.891366", "1", null ]
+, [ "row-28vt.jgiw-4wz4", "00000000-0000-0000-999C-EC41A7565973", 0, 1746418502, null, 1746418502, null, "{ }", "617", "True", "3", "Atlantic Av-Barclays Ctr", "(2,3,4,5,B,D,N,Q,R)", "Atlantic Av-Barclays Ctr", "27; 40; 338", "235; D24; R31", "Bk", "False", "2 3 4 5 B D N Q R", "Subway", "40.68416167", "-73.97778867", "1", null ]
+, [ "row-e2gw~3d3h-fafc", "00000000-0000-0000-D166-773C5F18B012", 0, 1746418502, null, 1746418502, null, "{ }", "618", "True", "2", "14 St/8 Av", "(A,C,E,L)", "14 St; 8 Av", "115; 166", "A31; L01", "M", "True", "A C E L", "Subway", "40.740335", "-74.002134", "1", null ]
+, [ "row-jb35_khk2-3q6q", "00000000-0000-0000-F477-2E658C6C9454", 0, 1746418502, null, 1746418502, null, "{ }", "619", "True", "2", "Broadway-Lafayette St/Bleecker St", "(6,B,D,F,M)", "Bleecker St; Broadway-Lafayette St", "230; 408", "637; D21", "M", "True", "6 B D F M", "Subway", "40.725606", "-73.9954315", "1", null ]
+, [ "row-qu2s-wnhd_b3c7", "00000000-0000-0000-F31A-74C6E7CA222F", 0, 1746418502, null, 1746418502, null, "{ }", "620", "True", "3", "Borough Hall/Court St", "(2,3,4,5,R)", "Borough Hall; Court St", "24; 335; 415", "232; 423; R28", "Bk", "False", "2 3 4 5 R", "Subway", "40.693241", "-73.990642", "2", "R not accessible; 2 3 accessible; 4 5 Manhattan-bound only" ]
+, [ "row-5n2k.q7uh-knzw", "00000000-0000-0000-F06A-0F9AC0F796D6", 0, 1746418502, null, 1746418502, null, "{ }", "621", "True", "3", "Broadway Junction", "(A,C,J,Z,L)", "Broadway Junction", "92; 132; 184", "A51; J27; L22", "Bk", "False", "A C J Z L", "Elevated; Subway", "40.678896", "-73.904356", "0", null ]
+, [ "row-wmb3.vjwk_jdf2", "00000000-0000-0000-4748-5F0876595AC9", 0, 1746418502, null, 1746418502, null, "{ }", "622", "True", "2", "Brooklyn Bridge-City Hall/Chambers St", "(4,5,6,J,Z)", "Brooklyn Bridge-City Hall; Chambers St", "105; 411", "640; M21", "M", "True", "4 5 6 J Z", "Subway", "40.713154", "-74.003766", "1", null ]
+, [ "row-pu2g_3crr-59c4", "00000000-0000-0000-9079-21B089457E1B", 0, 1746418502, null, 1746418502, null, "{ }", "623", "True", "4", "Canal St", "(6,J,Z,N,Q,R,W)", "Canal St", "18; 19; 104; 410", "639; M20; Q01; R23", "M", "True", "6 J Z N Q R W", "Subway", "40.71870125", "-74.00058", "2", "R W not accessible; N Q not accessible; J Z not accessible; 6 accessible" ]
+, [ "row-pa6w~a4cm_tr33", "00000000-0000-0000-5694-35F41C888B64", 0, 1746418502, null, 1746418502, null, "{ }", "624", "True", "4", "Chambers St/WTC/Park Place/Cortlandt St", "(2,3,A,C,E,R,W)", "Chambers St; Cortlandt St; Park Place; World Trade Center", "21; 170; 171; 331", "228; A36; E01; R25", "M", "True", "2 3 A C E R W", "Subway", "40.712603", "-74.0095515", "2", "R W accessible; A C not accessible; E accessible; 2 3 not accessible" ]
+, [ "row-qb9m.mauu-79tv", "00000000-0000-0000-9979-2FE180AA2D1E", 0, 1746418502, null, 1746418502, null, "{ }", "625", "True", "2", "Delancey St-Essex St", "(F,M,J,Z)", "Delancey St-Essex St", "102; 233", "F15; M18", "M", "True", "F M J Z", "Subway", "40.718463", "-73.9877755", "0", null ]
+, [ "row-y3pk-u97z_k2ij", "00000000-0000-0000-25E7-D175D670A203", 0, 1746418502, null, 1746418502, null, "{ }", "626", "True", "2", "Franklin Av-Medgar Evers College/Botanic Garden", "(2,3,4,5,S)", "Botanic Garden; Franklin Av-Medgar Evers College", "142; 342", "239; S04", "Bk", "False", "2 3 4 5 S", "Open Cut; Subway", "40.6705125", "-73.958688", "0", null ]
+, [ "row-vhw9-qzw2.53pf", "00000000-0000-0000-72F1-25847952BF4C", 0, 1746418502, null, 1746418502, null, "{ }", "627", "True", "2", "Franklin Av", "(C,S)", "Franklin Av", "139; 178", "A45; S01", "Bk", "False", "C S", "Elevated; Subway", "40.680988", "-73.9563375", "1", null ]
+, [ "row-u53z~m9x6_ddqz", "00000000-0000-0000-BAB1-6D12B5E4A699", 0, 1746418502, null, 1746418502, null, "{ }", "628", "True", "4", "Fulton St", "(2,3,4,5,A,C,J,Z)", "Fulton St", "106; 172; 332; 412", "229; 418; A38; M22", "M", "True", "2 3 4 5 A C J Z", "Subway", "40.71008875", "-74.00783825", "1", null ]
+, [ "row-94aq~nsjj-7875", "00000000-0000-0000-B717-646F393D0C6D", 0, 1746418502, null, 1746418502, null, "{ }", "629", "True", "2", "Metropolitan Av/Lorimer St", "(G,L)", "Lorimer St; Metropolitan Av", "121; 285", "G29; L10", "Bk", "False", "G L", "Subway", "40.7134275", "-73.9508465", "1", null ]
+, [ "row-8s9i~n7xw_apwh", "00000000-0000-0000-42C3-18198AFFF578", 0, 1746418502, null, 1746418502, null, "{ }", "630", "True", "2", "Myrtle-Wyckoff Avs", "(M,L)", "Myrtle-Wyckoff Avs", "112; 128", "L17; M08", "Bk", "False", "M L", "Elevated; Subway", "40.699622", "-73.9119855", "1", null ]
+, [ "row-kyhs~cs75~4zgi", "00000000-0000-0000-3DBA-E0C32C781232", 0, 1746418502, null, 1746418502, null, "{ }", "635", "True", "2", "Whitehall St-South Ferry", "(1,R,W)", "South Ferry; Whitehall St-South Ferry", "23; 330", "142; R27", "M", "True", "1 R W", "Subway", "40.7025775", "-74.013329", "2", "R W not accessible; 1 accessible" ]
+, [ "row-yt7s.4muk_ie5y", "00000000-0000-0000-A76F-EE217DF97DBE", 0, 1746418502, null, 1746418502, null, "{ }", "636", "True", "2", "Jay St-MetroTech", "(A,C,F,R)", "Jay St-MetroTech", "25; 174", "A41; R29", "Bk", "False", "A C F R", "Subway", "40.692259", "-73.986642", "1", null ]
+, [ "row-ew2m-5jz6_ywez", "00000000-0000-0000-D8E4-B4D7B40833FA", 0, 1746418502, null, 1746418502, null, "{ }", "271", "False", "1", "Steinway St", "(M,R)", "Steinway St", "271", "G19", "Q", "False", "M R", "Subway", "40.756879", "-73.92074", "0", null ]
+, [ "row-47bw.a856.wa6f", "00000000-0000-0000-656B-C6ACDEFFAA7D", 0, 1746418502, null, 1746418502, null, "{ }", "272", "False", "1", "36 St", "(M,R)", "36 St", "272", "G20", "Q", "False", "M R", "Subway", "40.752039", "-73.928781", "0", null ]
+, [ "row-v5e8-w82u~f3yt", "00000000-0000-0000-B5D0-867161C11552", 0, 1746418502, null, 1746418502, null, "{ }", "273", "False", "1", "Queens Plaza", "(E,M,R)", "Queens Plaza", "273", "G21", "Q", "False", "E M R", "Subway", "40.748973", "-73.937243", "1", null ]
+, [ "row-fni3.m2td_3py8", "00000000-0000-0000-D36A-D80A48CF0E37", 0, 1746418502, null, 1746418502, null, "{ }", "276", "False", "1", "5 Av/53 St", "(E,M)", "5 Av/53 St", "276", "F12", "M", "True", "E M", "Subway", "40.760167", "-73.975224", "0", null ]
+, [ "row-ptu3~7ur6~azex", "00000000-0000-0000-6CAD-BC5D1F02324A", 0, 1746418502, null, 1746418502, null, "{ }", "277", "False", "1", "7 Av", "(E,B,D)", "7 Av", "277", "D14", "M", "True", "E B D", "Subway", "40.762862", "-73.981637", "0", null ]
+, [ "row-c2yu.ffjc~imee", "00000000-0000-0000-F8C7-9363DEC4F4CB", 0, 1746418502, null, 1746418502, null, "{ }", "278", "False", "1", "Jamaica Center-Parsons/Archer", "(E,J,Z)", "Jamaica Center-Parsons/Archer", "278", "G05", "Q", "False", "E J Z", "Subway", "40.702147", "-73.801109", "1", null ]
+, [ "row-qqqz.ehjt.3kb5", "00000000-0000-0000-FA70-E5BA1D2F487E", 0, 1746418502, null, 1746418502, null, "{ }", "279", "False", "1", "Sutphin Blvd-Archer Av-JFK Airport", "(E,J,Z)", "Sutphin Blvd-Archer Av-JFK Airport", "279", "G06", "Q", "False", "E J Z", "Subway", "40.700486", "-73.807969", "1", null ]
+, [ "row-es89~74jc_xw7a", "00000000-0000-0000-36FF-883AB9EAD555", 0, 1746418502, null, 1746418502, null, "{ }", "280", "False", "1", "Jamaica-Van Wyck", "(E)", "Jamaica-Van Wyck", "280", "G07", "Q", "False", "E", "Subway", "40.702566", "-73.816859", "1", null ]
+, [ "row-tn8k.hxh7.zcan", "00000000-0000-0000-9211-FD1A18E32BEC", 0, 1746418502, null, 1746418502, null, "{ }", "282", "False", "1", "21 St", "(G)", "21 St", "282", "G24", "Q", "False", "G", "Subway", "40.744065", "-73.949724", "0", null ]
+, [ "row-iyu7.48k6_ri44", "00000000-0000-0000-72E9-A1E15A073E3D", 0, 1746418502, null, 1746418502, null, "{ }", "283", "False", "1", "Greenpoint Av", "(G)", "Greenpoint Av", "283", "G26", "Bk", "False", "G", "Subway", "40.731352", "-73.954449", "1", null ]
+, [ "row-xfuk_i28t_xwfz", "00000000-0000-0000-F441-5D5374A24C1A", 0, 1746418502, null, 1746418502, null, "{ }", "284", "False", "1", "Nassau Av", "(G)", "Nassau Av", "284", "G28", "Bk", "False", "G", "Subway", "40.724635", "-73.951277", "0", null ]
+, [ "row-muyb~7abd~fxbs", "00000000-0000-0000-EB75-3B9F666929B0", 0, 1746418502, null, 1746418502, null, "{ }", "286", "False", "1", "Broadway", "(G)", "Broadway", "286", "G30", "Bk", "False", "G", "Subway", "40.706092", "-73.950308", "0", null ]
+, [ "row-wj2q~265a_9pc2", "00000000-0000-0000-4C36-A2A8FA80F454", 0, 1746418502, null, 1746418502, null, "{ }", "287", "False", "1", "Flushing Av", "(G)", "Flushing Av", "287", "G31", "Bk", "False", "G", "Subway", "40.700377", "-73.950234", "0", null ]
+, [ "row-24bx~c4db.nzy4", "00000000-0000-0000-1CF2-41E7FAA07027", 0, 1746418502, null, 1746418502, null, "{ }", "288", "False", "1", "Myrtle-Willoughby Avs", "(G)", "Myrtle-Willoughby Avs", "288", "G32", "Bk", "False", "G", "Subway", "40.694568", "-73.949046", "0", null ]
+, [ "row-p3nu.nc4y_x4rp", "00000000-0000-0000-0BBB-5F24FDFF8A54", 0, 1746418502, null, 1746418502, null, "{ }", "289", "False", "1", "Bedford-Nostrand Avs", "(G)", "Bedford-Nostrand Avs", "289", "G33", "Bk", "False", "G", "Subway", "40.689627", "-73.953522", "0", null ]
+, [ "row-yviv~rqzn_2hu7", "00000000-0000-0000-922E-F27A273F528A", 0, 1746418502, null, 1746418502, null, "{ }", "290", "False", "1", "Classon Av", "(G)", "Classon Av", "290", "G34", "Bk", "False", "G", "Subway", "40.688873", "-73.96007", "0", null ]
+, [ "row-jbtk~n8jd.ckzg", "00000000-0000-0000-5001-4049FC89264A", 0, 1746418502, null, 1746418502, null, "{ }", "291", "False", "1", "Clinton-Washington Avs", "(G)", "Clinton-Washington Avs", "291", "G35", "Bk", "False", "G", "Subway", "40.688089", "-73.966839", "0", null ]
+, [ "row-kxrh-95jf.zfi2", "00000000-0000-0000-3E6E-2A935E1029F2", 0, 1746418502, null, 1746418502, null, "{ }", "292", "False", "1", "Fulton St", "(G)", "Fulton St", "292", "G36", "Bk", "False", "G", "Subway", "40.687119", "-73.975375", "0", null ]
+, [ "row-hr6w_m8rk~t2g4", "00000000-0000-0000-17C0-290033C6DBD7", 0, 1746418502, null, 1746418502, null, "{ }", "293", "False", "1", "Van Cortlandt Park-242 St", "(1)", "Van Cortlandt Park-242 St", "293", "101", "Bx", "False", "1", "Elevated", "40.889248", "-73.898583", "0", null ]
+, [ "row-y5f9_hi6m-ywbx", "00000000-0000-0000-C57D-4381B37CC0E2", 0, 1746418502, null, 1746418502, null, "{ }", "294", "False", "1", "238 St", "(1)", "238 St", "294", "103", "Bx", "False", "1", "Elevated", "40.884667", "-73.90087", "0", null ]
+, [ "row-mpve-z24c~4ikb", "00000000-0000-0000-F952-E9E4B74CACB7", 0, 1746418502, null, 1746418502, null, "{ }", "295", "False", "1", "231 St", "(1)", "231 St", "295", "104", "Bx", "False", "1", "Elevated", "40.878856", "-73.904834", "1", null ]
+, [ "row-asq8_uq2u~gdt8", "00000000-0000-0000-4A92-347246C2FC7C", 0, 1746418502, null, 1746418502, null, "{ }", "296", "False", "1", "Marble Hill-225 St", "(1)", "Marble Hill-225 St", "296", "106", "M", "False", "1", "Elevated", "40.874561", "-73.909831", "0", null ]
+, [ "row-4tyh.pt26~hcg6", "00000000-0000-0000-6D9B-ED96C0B8ACF8", 0, 1746418502, null, 1746418502, null, "{ }", "297", "False", "1", "215 St", "(1)", "215 St", "297", "107", "M", "False", "1", "Elevated", "40.869444", "-73.915279", "0", null ]
+, [ "row-mskc~vqxu-a4q2", "00000000-0000-0000-16B8-84BDBCBECB0D", 0, 1746418502, null, 1746418502, null, "{ }", "298", "False", "1", "207 St", "(1)", "207 St", "298", "108", "M", "False", "1", "Elevated", "40.864621", "-73.918822", "0", null ]
+, [ "row-st8v~eva7.a5ar", "00000000-0000-0000-230E-82690B791413", 0, 1746418502, null, 1746418502, null, "{ }", "299", "False", "1", "Dyckman St", "(1)", "Dyckman St", "299", "109", "M", "False", "1", "Elevated", "40.860531", "-73.925536", "1", null ]
+, [ "row-nmbn_nz87-g8ya", "00000000-0000-0000-83BD-FE8B0C8C905C", 0, 1746418502, null, 1746418502, null, "{ }", "300", "False", "1", "191 St", "(1)", "191 St", "300", "110", "M", "False", "1", "Subway", "40.855225", "-73.929412", "0", null ]
+, [ "row-i2ak-ug4c.sk6j", "00000000-0000-0000-1753-F77AC5793506", 0, 1746418502, null, 1746418502, null, "{ }", "301", "False", "1", "181 St", "(1)", "181 St", "301", "111", "M", "False", "1", "Subway", "40.849505", "-73.933596", "0", null ]
+, [ "row-2zac~hg24.q3qq", "00000000-0000-0000-52BC-C4CB2707D523", 0, 1746418502, null, 1746418502, null, "{ }", "303", "False", "1", "157 St", "(1)", "157 St", "303", "113", "M", "False", "1", "Subway", "40.834041", "-73.94489", "0", null ]
+, [ "row-fz5j~q388.g25h", "00000000-0000-0000-BAFE-46EFB0CEA7B5", 0, 1746418502, null, 1746418502, null, "{ }", "304", "False", "1", "145 St", "(1)", "145 St", "304", "114", "M", "False", "1", "Subway", "40.826551", "-73.95036", "0", null ]
+, [ "row-qgsd-h2zd_dfuk", "00000000-0000-0000-6557-10AEAFA2D500", 0, 1746418502, null, 1746418502, null, "{ }", "305", "False", "1", "137 St-City College", "(1)", "137 St-City College", "305", "115", "M", "False", "1", "Subway", "40.822008", "-73.953676", "0", null ]
+, [ "row-wj6w_2s49~emr8", "00000000-0000-0000-720F-639787E54D30", 0, 1746418502, null, 1746418502, null, "{ }", "306", "False", "1", "125 St", "(1)", "125 St", "306", "116", "M", "False", "1", "Elevated", "40.815581", "-73.958372", "0", null ]
+, [ "row-rin6-kupz.5s9t", "00000000-0000-0000-4098-79763FA2DD6A", 0, 1746418502, null, 1746418502, null, "{ }", "307", "False", "1", "116 St-Columbia University", "(1)", "116 St-Columbia University", "307", "117", "M", "False", "1", "Subway", "40.807722", "-73.96411", "0", null ]
+, [ "row-ca42.phrj-yrpw", "00000000-0000-0000-AADF-C17845D752DA", 0, 1746418502, null, 1746418502, null, "{ }", "308", "False", "1", "Cathedral Pkwy (110 St)", "(110,St)", "Cathedral Pkwy (110 St)", "308", "118", "M", "False", "1", "Subway", "40.803967", "-73.966847", "0", null ]
+, [ "row-8qpi_yusk~ehem", "00000000-0000-0000-39EB-7C04532E2840", 0, 1746418502, null, 1746418502, null, "{ }", "309", "False", "1", "103 St", "(1)", "103 St", "309", "119", "M", "False", "1", "Subway", "40.799446", "-73.968379", "0", null ]
+, [ "row-e8zq_navw-6rkk", "00000000-0000-0000-B812-028F8E50B246", 0, 1746418502, null, 1746418502, null, "{ }", "310", "False", "1", "96 St", "(1,2,3)", "96 St", "310", "120", "M", "False", "1 2 3", "Subway", "40.793919", "-73.972323", "1", null ]
+, [ "row-jmcc_5yqz_guft", "00000000-0000-0000-2B96-8FB915BD731C", 0, 1746418502, null, 1746418502, null, "{ }", "311", "False", "1", "86 St", "(1)", "86 St", "311", "121", "M", "False", "1", "Subway", "40.788644", "-73.976218", "0", null ]
+, [ "row-hbet~6bxq~9f27", "00000000-0000-0000-D487-EFFA1D1C2D26", 0, 1746418502, null, 1746418502, null, "{ }", "312", "False", "1", "79 St", "(1)", "79 St", "312", "122", "M", "False", "1", "Subway", "40.783934", "-73.979917", "0", null ]
+, [ "row-q7h4.7zmg_34ys", "00000000-0000-0000-8A5A-D976808838A3", 0, 1746418502, null, 1746418502, null, "{ }", "313", "False", "1", "72 St", "(1,2,3)", "72 St", "313", "123", "M", "False", "1 2 3", "Subway", "40.778453", "-73.98197", "1", null ]
+, [ "row-7tdn.c3dk_zes3", "00000000-0000-0000-75D9-7BAD7B110D99", 0, 1746418502, null, 1746418502, null, "{ }", "314", "False", "1", "66 St-Lincoln Center", "(1)", "66 St-Lincoln Center", "314", "124", "M", "False", "1", "Subway", "40.77344", "-73.982209", "1", null ]
+, [ "row-my65-7hfa.hmx7", "00000000-0000-0000-E972-AE5B30E58E3F", 0, 1746418502, null, 1746418502, null, "{ }", "316", "False", "1", "50 St", "(1)", "50 St", "316", "126", "M", "True", "1", "Subway", "40.761728", "-73.983849", "0", null ]
+, [ "row-ih85.unea-8rbd", "00000000-0000-0000-B648-A3BC92DB967C", 0, 1746418502, null, 1746418502, null, "{ }", "318", "False", "1", "34 St-Penn Station", "(1,2,3)", "34 St-Penn Station", "318", "128", "M", "True", "1 2 3", "Subway", "40.750373", "-73.991057", "1", null ]
+, [ "row-mutu_4k5f.mksv", "00000000-0000-0000-5967-C94E6E847AC4", 0, 1746418502, null, 1746418502, null, "{ }", "319", "False", "1", "28 St", "(1)", "28 St", "319", "129", "M", "True", "1", "Subway", "40.747215", "-73.993365", "0", null ]
+, [ "row-jivd-b78b~va5p", "00000000-0000-0000-36FF-6FE7D525E1D1", 0, 1746418502, null, 1746418502, null, "{ }", "320", "False", "1", "23 St", "(1)", "23 St", "320", "130", "M", "True", "1", "Subway", "40.744081", "-73.995657", "0", null ]
+, [ "row-kggg.5rti_4rs9", "00000000-0000-0000-56C5-2AD0AF88529A", 0, 1746418502, null, 1746418502, null, "{ }", "321", "False", "1", "18 St", "(1)", "18 St", "321", "131", "M", "True", "1", "Subway", "40.74104", "-73.997871", "0", null ]
+, [ "row-ph2x_25jb.6rvj", "00000000-0000-0000-8E19-CF1216E69C43", 0, 1746418502, null, 1746418502, null, "{ }", "323", "False", "1", "Christopher St-Stonewall", "(1)", "Christopher St-Stonewall", "323", "133", "M", "True", "1", "Subway", "40.733422", "-74.002906", "0", null ]
+, [ "row-69tn.agm2~p52i", "00000000-0000-0000-822D-A3BC3E8D6182", 0, 1746418502, null, 1746418502, null, "{ }", "324", "False", "1", "Houston St", "(1)", "Houston St", "324", "134", "M", "True", "1", "Subway", "40.728251", "-74.005367", "0", null ]
+, [ "row-ncmf.9zcp~trh3", "00000000-0000-0000-6E1F-0F22170986A2", 0, 1746418502, null, 1746418502, null, "{ }", "325", "False", "1", "Canal St", "(1)", "Canal St", "325", "135", "M", "True", "1", "Subway", "40.722854", "-74.006277", "0", null ]
+, [ "row-cbvj-hhtf_297g", "00000000-0000-0000-B3B0-47D29BE5A723", 0, 1746418502, null, 1746418502, null, "{ }", "326", "False", "1", "Franklin St", "(1)", "Franklin St", "326", "136", "M", "True", "1", "Subway", "40.719318", "-74.006886", "0", null ]
+, [ "row-hgmr~gshz-825z", "00000000-0000-0000-EAE9-7AAD84AC74DD", 0, 1746418502, null, 1746418502, null, "{ }", "327", "False", "1", "Chambers St", "(1,2,3)", "Chambers St", "327", "137", "M", "True", "1 2 3", "Subway", "40.715478", "-74.009266", "1", null ]
+, [ "row-bmxg-aqc8.ic2e", "00000000-0000-0000-FB13-86D280B5764D", 0, 1746418502, null, 1746418502, null, "{ }", "328", "False", "1", "WTC Cortlandt", "(1)", "WTC Cortlandt", "328", "138", "M", "True", "1", "Subway", "40.711835", "-74.012188", "1", null ]
+, [ "row-k946.x9pp~qncm", "00000000-0000-0000-A99A-6D88AB23EEC7", 0, 1746418502, null, 1746418502, null, "{ }", "329", "False", "1", "Rector St", "(1)", "Rector St", "329", "139", "M", "True", "1", "Subway", "40.707513", "-74.013783", "0", null ]
+, [ "row-76yh_chec~6ip2", "00000000-0000-0000-F093-9F2B92E20457", 0, 1746418502, null, 1746418502, null, "{ }", "333", "False", "1", "Wall St", "(2,3)", "Wall St", "333", "230", "M", "True", "2 3", "Subway", "40.706821", "-74.0091", "0", null ]
+, [ "row-r85v-wz4v~e984", "00000000-0000-0000-A49D-5D2BC9525F42", 0, 1746418502, null, 1746418502, null, "{ }", "334", "False", "1", "Clark St", "(2,3)", "Clark St", "334", "231", "Bk", "False", "2 3", "Subway", "40.697466", "-73.993086", "0", null ]
+, [ "row-v889~i587_a8mj", "00000000-0000-0000-5E70-2FB0AD2D1527", 0, 1746418502, null, 1746418502, null, "{ }", "336", "False", "1", "Hoyt St", "(2,3)", "Hoyt St", "336", "233", "Bk", "False", "2 3", "Subway", "40.690545", "-73.985065", "2", "Outbound only" ]
+, [ "row-yzup-mq98.tsty", "00000000-0000-0000-7A9B-A6D1499139A9", 0, 1746418502, null, 1746418502, null, "{ }", "337", "False", "1", "Nevins St", "(2,3,4,5)", "Nevins St", "337", "234", "Bk", "False", "2 3 4 5", "Subway", "40.688246", "-73.980492", "0", null ]
+, [ "row-fnfx-ac79-jzzj", "00000000-0000-0000-75D4-3A0804826AD3", 0, 1746418502, null, 1746418502, null, "{ }", "339", "False", "1", "Bergen St", "(2,3)", "Bergen St", "339", "236", "Bk", "False", "2 3", "Subway", "40.680829", "-73.975098", "0", null ]
+, [ "row-t425-un58-kjpg", "00000000-0000-0000-D842-DB24B177E853", 0, 1746418502, null, 1746418502, null, "{ }", "340", "False", "1", "Grand Army Plaza", "(2,3)", "Grand Army Plaza", "340", "237", "Bk", "False", "2 3", "Subway", "40.675235", "-73.971046", "0", null ]
+, [ "row-dyq3~avfz_rj5d", "00000000-0000-0000-0A07-4BE0AFF65B78", 0, 1746418502, null, 1746418502, null, "{ }", "341", "False", "1", "Eastern Pkwy-Brooklyn Museum", "(2,3)", "Eastern Pkwy-Brooklyn Museum", "341", "238", "Bk", "False", "2 3", "Subway", "40.671987", "-73.964375", "1", null ]
+, [ "row-jdse.hsry~hn9w", "00000000-0000-0000-82E8-2505B870E000", 0, 1746418502, null, 1746418502, null, "{ }", "343", "False", "1", "Nostrand Av", "(3)", "Nostrand Av", "343", "248", "Bk", "False", "3", "Subway", "40.669847", "-73.950466", "0", null ]
+, [ "row-t52g.3gjw-7zaq", "00000000-0000-0000-25D7-BEEBE8F6617A", 0, 1746418502, null, 1746418502, null, "{ }", "344", "False", "1", "Kingston Av", "(3)", "Kingston Av", "344", "249", "Bk", "False", "3", "Subway", "40.669399", "-73.942161", "0", null ]
+, [ "row-pfaz.m7ud~g65v", "00000000-0000-0000-CAA9-F9C4F34AF289", 0, 1746418502, null, 1746418502, null, "{ }", "345", "False", "1", "Crown Hts-Utica Av", "(3,4)", "Crown Hts-Utica Av", "345", "250", "Bk", "False", "3 4", "Subway", "40.668897", "-73.932942", "1", null ]
+, [ "row-a33b_tb83_jqmz", "00000000-0000-0000-EB67-0C94A9FC48E1", 0, 1746418502, null, 1746418502, null, "{ }", "346", "False", "1", "Sutter Av-Rutland Rd", "(3)", "Sutter Av-Rutland Rd", "346", "251", "Bk", "False", "3", "Elevated", "40.664717", "-73.92261", "0", null ]
+, [ "row-g3kn~4zbh.f7p6", "00000000-0000-0000-E035-5E9A83C9A771", 0, 1746418502, null, 1746418502, null, "{ }", "347", "False", "1", "Saratoga Av", "(3)", "Saratoga Av", "347", "252", "Bk", "False", "3", "Elevated", "40.661453", "-73.916327", "0", null ]
+, [ "row-72t2-jw8a-eick", "00000000-0000-0000-C393-37B625AC952C", 0, 1746418502, null, 1746418502, null, "{ }", "348", "False", "1", "Rockaway Av", "(3)", "Rockaway Av", "348", "253", "Bk", "False", "3", "Elevated", "40.662549", "-73.908946", "0", null ]
+, [ "row-jwd6.xh6y.icrw", "00000000-0000-0000-F2FD-5549F96C5C02", 0, 1746418502, null, 1746418502, null, "{ }", "349", "False", "1", "Junius St", "(3)", "Junius St", "349", "254", "Bk", "False", "3", "Elevated", "40.663515", "-73.902447", "0", null ]
+, [ "row-x9ez.rszf~8vrs", "00000000-0000-0000-36F2-8F0F429C8B4D", 0, 1746418502, null, 1746418502, null, "{ }", "350", "False", "1", "Pennsylvania Av", "(3)", "Pennsylvania Av", "350", "255", "Bk", "False", "3", "Elevated", "40.664635", "-73.894895", "0", null ]
+, [ "row-e9e9~wwh4~y9zc", "00000000-0000-0000-D8B2-675B682759AF", 0, 1746418502, null, 1746418502, null, "{ }", "351", "False", "1", "Van Siclen Av", "(3)", "Van Siclen Av", "351", "256", "Bk", "False", "3", "Elevated", "40.665449", "-73.889395", "0", null ]
+, [ "row-xmy8-kyiq~gnw9", "00000000-0000-0000-DBFF-17010FB69DDE", 0, 1746418502, null, 1746418502, null, "{ }", "352", "False", "1", "New Lots Av", "(3)", "New Lots Av", "352", "257", "Bk", "False", "3", "Elevated", "40.666235", "-73.884079", "0", null ]
+, [ "row-d4ia-n6vs-sw9r", "00000000-0000-0000-AEF0-52EB57A9285F", 0, 1746418502, null, 1746418502, null, "{ }", "353", "False", "1", "President St-Medgar Evers College", "(2,5)", "President St-Medgar Evers College", "353", "241", "Bk", "False", "2 5", "Subway", "40.667883", "-73.950683", "0", null ]
+, [ "row-tvhi-8cqy_zfq2", "00000000-0000-0000-5F5E-22DFD1185563", 0, 1746418502, null, 1746418502, null, "{ }", "354", "False", "1", "Sterling St", "(2,5)", "Sterling St", "354", "242", "Bk", "False", "2 5", "Subway", "40.662742", "-73.95085", "0", null ]
+, [ "row-yjs4.4u5d.yhqa", "00000000-0000-0000-5D58-B0752BD4F5C1", 0, 1746418502, null, 1746418502, null, "{ }", "355", "False", "1", "Winthrop St", "(2,5)", "Winthrop St", "355", "243", "Bk", "False", "2 5", "Subway", "40.656652", "-73.9502", "0", null ]
+, [ "row-7byy~d58g-x4jd", "00000000-0000-0000-78D3-F78C477631FE", 0, 1746418502, null, 1746418502, null, "{ }", "356", "False", "1", "Church Av", "(2,5)", "Church Av", "356", "244", "Bk", "False", "2 5", "Subway", "40.650843", "-73.949575", "1", null ]
+, [ "row-yafq.gr3i_qzjf", "00000000-0000-0000-5E84-A593A524D357", 0, 1746418502, null, 1746418502, null, "{ }", "357", "False", "1", "Beverly Rd", "(2,5)", "Beverly Rd", "357", "245", "Bk", "False", "2 5", "Subway", "40.645098", "-73.948959", "0", null ]
+, [ "row-ekuc~vjz3~ar78", "00000000-0000-0000-D490-97399061ABE1", 0, 1746418502, null, 1746418502, null, "{ }", "358", "False", "1", "Newkirk Av-Little Haiti", "(2,5)", "Newkirk Av-Little Haiti", "358", "246", "Bk", "False", "2 5", "Subway", "40.639967", "-73.948411", "0", null ]
+, [ "row-6h8c~a7p6.bt6q", "00000000-0000-0000-C3BD-6AA217864BE1", 0, 1746418502, null, 1746418502, null, "{ }", "359", "False", "1", "Flatbush Av-Brooklyn College", "(2,5)", "Flatbush Av-Brooklyn College", "359", "247", "Bk", "False", "2 5", "Subway", "40.632836", "-73.947642", "1", null ]
+, [ "row-7ji2-ve8v_jsiw", "00000000-0000-0000-6806-572B0AC00B9A", 0, 1746418502, null, 1746418502, null, "{ }", "360", "False", "1", "Pelham Bay Park", "(6)", "Pelham Bay Park", "360", "601", "Bx", "False", "6", "Elevated", "40.852462", "-73.828121", "1", null ]
+, [ "row-uqyi-59is.xhgj", "00000000-0000-0000-AD57-CEA4C7ADCF28", 0, 1746418502, null, 1746418502, null, "{ }", "361", "False", "1", "Buhre Av", "(6)", "Buhre Av", "361", "602", "Bx", "False", "6", "Elevated", "40.84681", "-73.832569", "0", null ]
+, [ "row-nf5v~r2mj~9jm2", "00000000-0000-0000-3901-C98D78B5B8C7", 0, 1746418502, null, 1746418502, null, "{ }", "362", "False", "1", "Middletown Rd", "(6)", "Middletown Rd", "362", "603", "Bx", "False", "6", "Elevated", "40.843863", "-73.836322", "0", null ]
+, [ "row-xb85_q742~qk5j", "00000000-0000-0000-E871-BC048C8A6501", 0, 1746418502, null, 1746418502, null, "{ }", "363", "False", "1", "Westchester Sq-E Tremont Av", "(6)", "Westchester Sq-E Tremont Av", "363", "604", "Bx", "False", "6", "Elevated", "40.839892", "-73.842952", "1", null ]
+, [ "row-mg32~hsze_pivd", "00000000-0000-0000-86A6-E6728A7B139D", 0, 1746418502, null, 1746418502, null, "{ }", "364", "False", "1", "Zerega Av", "(6)", "Zerega Av", "364", "606", "Bx", "False", "6", "Elevated", "40.836488", "-73.847036", "0", null ]
+, [ "row-b8f7_zps4_rkpm", "00000000-0000-0000-DB2C-AAE0FD184575", 0, 1746418502, null, 1746418502, null, "{ }", "365", "False", "1", "Castle Hill Av", "(6)", "Castle Hill Av", "365", "607", "Bx", "False", "6", "Elevated", "40.834255", "-73.851222", "0", null ]
+, [ "row-vwt9~7ie5.7d3t", "00000000-0000-0000-7837-659DC6DFD69E", 0, 1746418502, null, 1746418502, null, "{ }", "366", "False", "1", "Parkchester", "(6)", "Parkchester", "366", "608", "Bx", "False", "6", "Elevated", "40.833226", "-73.860816", "0", null ]
+, [ "row-ifpz.tcsr~wxux", "00000000-0000-0000-8433-9BD3580E240E", 0, 1746418502, null, 1746418502, null, "{ }", "367", "False", "1", "St Lawrence Av", "(6)", "St Lawrence Av", "367", "609", "Bx", "False", "6", "Elevated", "40.831509", "-73.867618", "0", null ]
+, [ "row-5d47.ciwb.6vri", "00000000-0000-0000-813B-44A5FA359E52", 0, 1746418502, null, 1746418502, null, "{ }", "368", "False", "1", "Morrison Av-Soundview", "(6)", "Morrison Av-Soundview", "368", "610", "Bx", "False", "6", "Elevated", "40.829521", "-73.874516", "0", null ]
+, [ "row-9i84_z37u_wzsk", "00000000-0000-0000-12EE-F35569C34AFD", 0, 1746418502, null, 1746418502, null, "{ }", "369", "False", "1", "Elder Av", "(6)", "Elder Av", "369", "611", "Bx", "False", "6", "Elevated", "40.828584", "-73.879159", "0", null ]
+, [ "row-upui_dzrv-vr6t", "00000000-0000-0000-9162-C9F77B9D2248", 0, 1746418502, null, 1746418502, null, "{ }", "370", "False", "1", "Whitlock Av", "(6)", "Whitlock Av", "370", "612", "Bx", "False", "6", "Elevated", "40.826525", "-73.886283", "0", null ]
+, [ "row-euvm_7mne~sbjh", "00000000-0000-0000-8E8B-95516C871C71", 0, 1746418502, null, 1746418502, null, "{ }", "371", "False", "1", "Hunts Point Av", "(6)", "Hunts Point Av", "371", "613", "Bx", "False", "6", "Subway", "40.820948", "-73.890549", "1", null ]
+, [ "row-f6fj~z4jh.y86f", "00000000-0000-0000-A0E0-92E8C761C96F", 0, 1746418502, null, 1746418502, null, "{ }", "372", "False", "1", "Longwood Av", "(6)", "Longwood Av", "372", "614", "Bx", "False", "6", "Subway", "40.816104", "-73.896435", "0", null ]
+, [ "row-mewz-iafj.46fn", "00000000-0000-0000-1539-3BECB5D60D5F", 0, 1746418502, null, 1746418502, null, "{ }", "373", "False", "1", "E 149 St", "(6)", "E 149 St", "373", "615", "Bx", "False", "6", "Subway", "40.812118", "-73.904098", "1", null ]
+, [ "row-c6vn~2q9i_5wmm", "00000000-0000-0000-3085-19D0C474CF9F", 0, 1746418502, null, 1746418502, null, "{ }", "374", "False", "1", "E 143 St-St Mary's St", "(6)", "E 143 St-St Mary's St", "374", "616", "Bx", "False", "6", "Subway", "40.808719", "-73.907657", "0", null ]
+, [ "row-gm3s~sya6_73ig", "00000000-0000-0000-0511-C4CBCEDEEE66", 0, 1746418502, null, 1746418502, null, "{ }", "375", "False", "1", "Cypress Av", "(6)", "Cypress Av", "375", "617", "Bx", "False", "6", "Subway", "40.805368", "-73.914042", "0", null ]
+, [ "row-gqzy-7wjq-s5iw", "00000000-0000-0000-A299-FB133D4C4AC7", 0, 1746418502, null, 1746418502, null, "{ }", "376", "False", "1", "Brook Av", "(6)", "Brook Av", "376", "618", "Bx", "False", "6", "Subway", "40.807566", "-73.91924", "0", null ]
+, [ "row-suje_r29i_jnhx", "00000000-0000-0000-D2E2-C10CBDA1D183", 0, 1746418502, null, 1746418502, null, "{ }", "377", "False", "1", "3 Av-138 St", "(6)", "3 Av-138 St", "377", "619", "Bx", "False", "6", "Subway", "40.810476", "-73.926138", "0", null ]
+, [ "row-ymqf-ki6t.22t9", "00000000-0000-0000-DD71-61E0C8CF0DFD", 0, 1746418502, null, 1746418502, null, "{ }", "378", "False", "1", "Woodlawn", "(4)", "Woodlawn", "378", "401", "Bx", "False", "4", "Elevated", "40.886037", "-73.878751", "0", null ]
+, [ "row-kw9b~24v8~35d7", "00000000-0000-0000-97C5-64C44969E50E", 0, 1746418502, null, 1746418502, null, "{ }", "379", "False", "1", "Mosholu Pkwy", "(4)", "Mosholu Pkwy", "379", "402", "Bx", "False", "4", "Elevated", "40.87975", "-73.884655", "0", null ]
+, [ "row-fem5_ertj_62sj", "00000000-0000-0000-06C3-3CBDB10D8AA4", 0, 1746418502, null, 1746418502, null, "{ }", "380", "False", "1", "Bedford Park Blvd-Lehman College", "(4)", "Bedford Park Blvd-Lehman College", "380", "405", "Bx", "False", "4", "Elevated", "40.873412", "-73.890064", "0", null ]
+, [ "row-fh49_23c2.e7yz", "00000000-0000-0000-5708-D310508C4FE3", 0, 1746418502, null, 1746418502, null, "{ }", "381", "False", "1", "Kingsbridge Rd", "(4)", "Kingsbridge Rd", "381", "406", "Bx", "False", "4", "Elevated", "40.86776", "-73.897174", "0", null ]
+, [ "row-wqin_fubb~iznn", "00000000-0000-0000-ACB5-563C4A9C829A", 0, 1746418502, null, 1746418502, null, "{ }", "382", "False", "1", "Fordham Rd", "(4)", "Fordham Rd", "382", "407", "Bx", "False", "4", "Elevated", "40.862803", "-73.901034", "1", null ]
+, [ "row-i3v7-8m4s-2xyf", "00000000-0000-0000-6D5B-D24AEB2F3310", 0, 1746418502, null, 1746418502, null, "{ }", "383", "False", "1", "183 St", "(4)", "183 St", "383", "408", "Bx", "False", "4", "Elevated", "40.858407", "-73.903879", "0", null ]
+, [ "row-pggd~f47f-seh6", "00000000-0000-0000-E8BD-297783A74A9E", 0, 1746418502, null, 1746418502, null, "{ }", "384", "False", "1", "Burnside Av", "(4)", "Burnside Av", "384", "409", "Bx", "False", "4", "Elevated", "40.853453", "-73.907684", "0", null ]
+, [ "row-ra6d.swss-uvg6", "00000000-0000-0000-67AF-525B89C1A533", 0, 1746418502, null, 1746418502, null, "{ }", "385", "False", "1", "176 St", "(4)", "176 St", "385", "410", "Bx", "False", "4", "Elevated", "40.84848", "-73.911794", "0", null ]
+, [ "row-ykyw-9b62~58fs", "00000000-0000-0000-C90E-218B2CC95612", 0, 1746418502, null, 1746418502, null, "{ }", "386", "False", "1", "Mt Eden Av", "(4)", "Mt Eden Av", "386", "411", "Bx", "False", "4", "Elevated", "40.844434", "-73.914685", "0", null ]
+, [ "row-sm6c.3x7z~v62y", "00000000-0000-0000-44BE-7A56C83BB4C2", 0, 1746418502, null, 1746418502, null, "{ }", "387", "False", "1", "170 St", "(4)", "170 St", "387", "412", "Bx", "False", "4", "Elevated", "40.840075", "-73.917791", "1", null ]
+, [ "row-rx4f-tczc_dcc9", "00000000-0000-0000-1160-06791E03A337", 0, 1746418502, null, 1746418502, null, "{ }", "388", "False", "1", "167 St", "(4)", "167 St", "388", "413", "Bx", "False", "4", "Elevated", "40.835537", "-73.9214", "0", null ]
+, [ "row-i4y4.ngk7.x5yw", "00000000-0000-0000-83CB-2290C35610A0", 0, 1746418502, null, 1746418502, null, "{ }", "391", "False", "1", "138 St-Grand Concourse", "(4,5)", "138 St-Grand Concourse", "391", "416", "Bx", "False", "4 5", "Subway", "40.813224", "-73.929849", "0", null ]
+, [ "row-xnx2-yh95_jupt", "00000000-0000-0000-000D-CAA50BABCE05", 0, 1746418502, null, 1746418502, null, "{ }", "392", "False", "1", "125 St", "(4,5,6)", "125 St", "392", "621", "M", "False", "4 5 6", "Subway", "40.804138", "-73.937594", "1", null ]
+, [ "row-2p3s~ajnv_x477", "00000000-0000-0000-D095-38FDC7CED8DB", 0, 1746418502, null, 1746418502, null, "{ }", "393", "False", "1", "116 St", "(6)", "116 St", "393", "622", "M", "False", "6", "Subway", "40.798629", "-73.941617", "0", null ]
+, [ "row-qnv7_yd7x-zbg7", "00000000-0000-0000-AF9F-994C768544C9", 0, 1746418502, null, 1746418502, null, "{ }", "394", "False", "1", "110 St", "(6)", "110 St", "394", "623", "M", "False", "6", "Subway", "40.79502", "-73.94425", "0", null ]
+, [ "row-xmnk_9w9s~ikac", "00000000-0000-0000-B5FA-F21E2C1454AA", 0, 1746418502, null, 1746418502, null, "{ }", "395", "False", "1", "103 St", "(6)", "103 St", "395", "624", "M", "False", "6", "Subway", "40.7906", "-73.947478", "0", null ]
+, [ "row-wepi.e9pu-jyek", "00000000-0000-0000-87E5-8E7B42829732", 0, 1746418502, null, 1746418502, null, "{ }", "396", "False", "1", "96 St", "(6)", "96 St", "396", "625", "M", "False", "6", "Subway", "40.785672", "-73.95107", "0", null ]
+, [ "row-t7kv_2dcv.e93f", "00000000-0000-0000-9681-1849E654E8FE", 0, 1746418502, null, 1746418502, null, "{ }", "397", "False", "1", "86 St", "(4,5,6)", "86 St", "397", "626", "M", "False", "4 5 6", "Subway", "40.779492", "-73.955589", "2", "Uptown local only" ]
+, [ "row-64et_njim-dfxu", "00000000-0000-0000-0456-542406BDED47", 0, 1746418502, null, 1746418502, null, "{ }", "141", "False", "1", "Park Pl", "(S)", "Park Pl", "141", "S03", "Bk", "False", "S", "Open Cut", "40.674772", "-73.957624", "1", null ]
+, [ "row-8twp.kifr~uvz8", "00000000-0000-0000-1A81-2D73CFD7A9B4", 0, 1746418502, null, 1746418502, null, "{ }", "143", "False", "1", "Inwood-207 St", "(A)", "Inwood-207 St", "143", "A02", "M", "False", "A", "Subway", "40.868072", "-73.919899", "1", null ]
+, [ "row-69y5.5ja9_k96v", "00000000-0000-0000-9EC4-F12681B78AB7", 0, 1746418502, null, 1746418502, null, "{ }", "144", "False", "1", "Dyckman St", "(A)", "Dyckman St", "144", "A03", "M", "False", "A", "Subway", "40.865491", "-73.927271", "0", null ]
+, [ "row-ntnx-49gm-bwf6", "00000000-0000-0000-EF69-FD9C367520AC", 0, 1746418502, null, 1746418502, null, "{ }", "145", "False", "1", "190 St", "(A)", "190 St", "145", "A05", "M", "False", "A", "Subway", "40.859022", "-73.93418", "0", null ]
+, [ "row-3ja8.zsp3~qdt4", "00000000-0000-0000-38F5-6F442355EC96", 0, 1746418502, null, 1746418502, null, "{ }", "146", "False", "1", "181 St", "(A)", "181 St", "146", "A06", "M", "False", "A", "Subway", "40.851695", "-73.937969", "1", null ]
+, [ "row-igrz-37z5~umaz", "00000000-0000-0000-F3E0-FBDC9359EA23", 0, 1746418502, null, 1746418502, null, "{ }", "147", "False", "1", "175 St", "(A)", "175 St", "147", "A07", "M", "False", "A", "Subway", "40.847391", "-73.939704", "1", null ]
+, [ "row-rfc3_w2ic~untk", "00000000-0000-0000-4E1B-80D1DB5926AA", 0, 1746418502, null, 1746418502, null, "{ }", "149", "False", "1", "163 St-Amsterdam Av", "(C)", "163 St-Amsterdam Av", "149", "A10", "M", "False", "C", "Subway", "40.836013", "-73.939892", "0", null ]
+, [ "row-82cc_g64g.jnvy", "00000000-0000-0000-8907-6D2F1989CFD0", 0, 1746418502, null, 1746418502, null, "{ }", "150", "False", "1", "155 St", "(C)", "155 St", "150", "A11", "M", "False", "C", "Subway", "40.830518", "-73.941514", "0", null ]
+, [ "row-r4dw_ywq7-cuuq", "00000000-0000-0000-CF0F-09DDA136912B", 0, 1746418502, null, 1746418502, null, "{ }", "151", "False", "2", "145 St", "(A,C,B,D)", "145 St", "151", "A12; D13", "M", "False", "A C B D", "Subway", "40.824783", "-73.944216", "0", null ]
+, [ "row-qhxi.uxh6_r5rg", "00000000-0000-0000-3DDD-794420206747", 0, 1746418502, null, 1746418502, null, "{ }", "152", "False", "1", "135 St", "(C,B)", "135 St", "152", "A14", "M", "False", "C B", "Subway", "40.817894", "-73.947649", "0", null ]
+, [ "row-h5qd~zud5~ptsh", "00000000-0000-0000-99F4-37067F827971", 0, 1746418502, null, 1746418502, null, "{ }", "153", "False", "1", "125 St", "(A,C,B,D)", "125 St", "153", "A15", "M", "False", "A C B D", "Subway", "40.811109", "-73.952343", "1", null ]
+, [ "row-unx3-4mig~unsz", "00000000-0000-0000-5731-AD2F9032D913", 0, 1746418502, null, 1746418502, null, "{ }", "154", "False", "1", "116 St", "(C,B)", "116 St", "154", "A16", "M", "False", "C B", "Subway", "40.805085", "-73.954882", "0", null ]
+, [ "row-mdx8.u26b.28gj", "00000000-0000-0000-D668-C687E8899896", 0, 1746418502, null, 1746418502, null, "{ }", "155", "False", "1", "Cathedral Pkwy (110 St)", "(110,St)", "Cathedral Pkwy (110 St)", "155", "A17", "M", "False", "C B", "Subway", "40.800603", "-73.958161", "0", null ]
+, [ "row-jcku~fwac-er8t", "00000000-0000-0000-B707-4E8888BD1328", 0, 1746418502, null, 1746418502, null, "{ }", "156", "False", "1", "103 St", "(C,B)", "103 St", "156", "A18", "M", "False", "C B", "Subway", "40.796092", "-73.961454", "0", null ]
+, [ "row-4yxx-8cdn.pmvm", "00000000-0000-0000-47C4-1CDB5289DA4A", 0, 1746418502, null, 1746418502, null, "{ }", "157", "False", "1", "96 St", "(C,B)", "96 St", "157", "A19", "M", "False", "C B", "Subway", "40.791642", "-73.964696", "0", null ]
+, [ "row-ebpt-aw27.9y94", "00000000-0000-0000-6508-A5F7EA7259C3", 0, 1746418502, null, 1746418502, null, "{ }", "158", "False", "1", "86 St", "(C,B)", "86 St", "158", "A20", "M", "False", "C B", "Subway", "40.785868", "-73.968916", "0", null ]
+, [ "row-wehm_kudv_d7eb", "00000000-0000-0000-6402-E015A15360F6", 0, 1746418502, null, 1746418502, null, "{ }", "159", "False", "1", "81 St-Museum of Natural History", "(C,B)", "81 St-Museum of Natural History", "159", "A21", "M", "False", "C B", "Subway", "40.781433", "-73.972143", "0", null ]
+, [ "row-iemm.pkyd_pz2q", "00000000-0000-0000-A038-B26DCE00C4D6", 0, 1746418502, null, 1746418502, null, "{ }", "160", "False", "1", "72 St", "(C,B)", "72 St", "160", "A22", "M", "False", "C B", "Subway", "40.775594", "-73.97641", "0", null ]
+, [ "row-svkx-dsc2.c5zj", "00000000-0000-0000-7720-0F04FC71157E", 0, 1746418502, null, 1746418502, null, "{ }", "162", "False", "1", "50 St", "(C,E)", "50 St", "162", "A25", "M", "True", "C E", "Subway", "40.762456", "-73.985984", "2", "Downtown only" ]
+, [ "row-vtw4~vu2n.222v", "00000000-0000-0000-B17A-8B69937121A3", 0, 1746418502, null, 1746418502, null, "{ }", "164", "False", "1", "34 St-Penn Station", "(A,C,E)", "34 St-Penn Station", "164", "A28", "M", "True", "A C E", "Subway", "40.752287", "-73.993391", "1", null ]
+, [ "row-p3np-dwsd_92sy", "00000000-0000-0000-C03D-ED000250C61C", 0, 1746418502, null, 1746418502, null, "{ }", "165", "False", "1", "23 St", "(C,E)", "23 St", "165", "A30", "M", "True", "C E", "Subway", "40.745906", "-73.998041", "0", null ]
+, [ "row-gbsr_kwg3_thtw", "00000000-0000-0000-4259-72B1C3BD55DC", 0, 1746418502, null, 1746418502, null, "{ }", "167", "False", "2", "W 4 St-Wash Sq", "(A,C,E,B,D,F,M)", "W 4 St-Wash Sq", "167", "A32; D20", "M", "True", "A C E B D F M", "Subway", "40.732338", "-74.000495", "1", null ]
+, [ "row-zgpn.zvea~vtgn", "00000000-0000-0000-6FF0-9CFADBA05071", 0, 1746418502, null, 1746418502, null, "{ }", "168", "False", "1", "Spring St", "(C,E)", "Spring St", "168", "A33", "M", "True", "C E", "Subway", "40.726227", "-74.003739", "0", null ]
+, [ "row-87x7-ewar~ems5", "00000000-0000-0000-8632-59FAC63571D4", 0, 1746418502, null, 1746418502, null, "{ }", "169", "False", "1", "Canal St", "(A,C,E)", "Canal St", "169", "A34", "M", "True", "A C E", "Subway", "40.720824", "-74.005229", "0", null ]
+, [ "row-xmgb.xzuk_ctdz", "00000000-0000-0000-9D12-1C9EEE5956C2", 0, 1746418502, null, 1746418502, null, "{ }", "173", "False", "1", "High St", "(A,C)", "High St", "173", "A40", "Bk", "False", "A C", "Subway", "40.699337", "-73.990531", "0", null ]
+, [ "row-vjsj.mc6c_ccmf", "00000000-0000-0000-BFA3-CB2A4C1A558C", 0, 1746418502, null, 1746418502, null, "{ }", "175", "False", "1", "Hoyt-Schermerhorn Sts", "(A,C,G)", "Hoyt-Schermerhorn Sts", "175", "A42", "Bk", "False", "A C G", "Subway", "40.688484", "-73.985001", "0", null ]
+, [ "row-hnx5~2kv9.bvxd", "00000000-0000-0000-DCD7-E90305E72AB6", 0, 1746418502, null, 1746418502, null, "{ }", "176", "False", "1", "Lafayette Av", "(C)", "Lafayette Av", "176", "A43", "Bk", "False", "C", "Subway", "40.686113", "-73.973946", "0", null ]
+, [ "row-npfe-ytt5~g3j9", "00000000-0000-0000-EABF-78582B85DEEF", 0, 1746418502, null, 1746418502, null, "{ }", "177", "False", "1", "Clinton-Washington Avs", "(C)", "Clinton-Washington Avs", "177", "A44", "Bk", "False", "C", "Subway", "40.683263", "-73.965838", "0", null ]
+, [ "row-64vi_q6az~avxa", "00000000-0000-0000-B8B2-4E38FA678A94", 0, 1746418502, null, 1746418502, null, "{ }", "179", "False", "1", "Nostrand Av", "(A,C)", "Nostrand Av", "179", "A46", "Bk", "False", "A C", "Subway", "40.680438", "-73.950426", "0", null ]
+, [ "row-sg3k-repr-fin8", "00000000-0000-0000-0320-2E1741C33094", 0, 1746418502, null, 1746418502, null, "{ }", "180", "False", "1", "Kingston-Throop Avs", "(C)", "Kingston-Throop Avs", "180", "A47", "Bk", "False", "C", "Subway", "40.679921", "-73.940858", "0", null ]
+, [ "row-r8nh~5bdy-4zeh", "00000000-0000-0000-DF4D-72A92E9D1F0D", 0, 1746418502, null, 1746418502, null, "{ }", "181", "False", "1", "Utica Av", "(A,C)", "Utica Av", "181", "A48", "Bk", "False", "A C", "Subway", "40.679364", "-73.930729", "1", null ]
+, [ "row-6rgj-dikz-zuha", "00000000-0000-0000-7232-F6EC853AB38E", 0, 1746418502, null, 1746418502, null, "{ }", "182", "False", "1", "Ralph Av", "(C)", "Ralph Av", "182", "A49", "Bk", "False", "C", "Subway", "40.678822", "-73.920786", "0", null ]
+, [ "row-biw7~b255.t45u", "00000000-0000-0000-E670-6768831D513A", 0, 1746418502, null, 1746418502, null, "{ }", "183", "False", "1", "Rockaway Av", "(C)", "Rockaway Av", "183", "A50", "Bk", "False", "C", "Subway", "40.67834", "-73.911946", "0", null ]
+, [ "row-8zj7-8fd7_7gwh", "00000000-0000-0000-CFA5-78D618A059DA", 0, 1746418502, null, 1746418502, null, "{ }", "185", "False", "1", "Liberty Av", "(C)", "Liberty Av", "185", "A52", "Bk", "False", "C", "Subway", "40.674542", "-73.896548", "0", null ]
+, [ "row-wtzt~xvn9.fzbt", "00000000-0000-0000-9E87-F3E1B9F67993", 0, 1746418502, null, 1746418502, null, "{ }", "186", "False", "1", "Van Siclen Av", "(C)", "Van Siclen Av", "186", "A53", "Bk", "False", "C", "Subway", "40.67271", "-73.890358", "0", null ]
+, [ "row-rxcb~nysz.8bq3", "00000000-0000-0000-5EDD-C4C7217D0F3E", 0, 1746418502, null, 1746418502, null, "{ }", "187", "False", "1", "Shepherd Av", "(C)", "Shepherd Av", "187", "A54", "Bk", "False", "C", "Subway", "40.67413", "-73.88075", "0", null ]
+, [ "row-ciyg~278p.jsnx", "00000000-0000-0000-7915-19CA8C270BA2", 0, 1746418502, null, 1746418502, null, "{ }", "188", "False", "1", "Euclid Av", "(A,C)", "Euclid Av", "188", "A55", "Bk", "False", "A C", "Subway", "40.675377", "-73.872106", "1", null ]
+, [ "row-8dvb_8n2c.mchf", "00000000-0000-0000-8801-D47AF82F163D", 0, 1746418502, null, 1746418502, null, "{ }", "189", "False", "1", "Grant Av", "(A)", "Grant Av", "189", "A57", "Bk", "False", "A", "Subway", "40.677044", "-73.86505", "0", null ]
+, [ "row-g7f3.k4mq-gvrh", "00000000-0000-0000-081F-70F556FAC04E", 0, 1746418502, null, 1746418502, null, "{ }", "190", "False", "1", "80 St", "(A)", "80 St", "190", "A59", "Q", "False", "A", "Elevated", "40.679371", "-73.858992", "0", null ]
+, [ "row-xvqq_uhcr_vb32", "00000000-0000-0000-EBA8-86B339350561", 0, 1746418502, null, 1746418502, null, "{ }", "191", "False", "1", "88 St", "(A)", "88 St", "191", "A60", "Q", "False", "A", "Elevated", "40.679843", "-73.85147", "0", null ]
+, [ "row-dxny-2xxu.dimp", "00000000-0000-0000-8161-F1F1141E3B4C", 0, 1746418502, null, 1746418502, null, "{ }", "192", "False", "1", "Rockaway Blvd", "(A)", "Rockaway Blvd", "192", "A61", "Q", "False", "A", "Elevated", "40.680429", "-73.843853", "0", null ]
+, [ "row-qgwf.7g3k.und8", "00000000-0000-0000-9FE8-1055F256D6E3", 0, 1746418502, null, 1746418502, null, "{ }", "193", "False", "1", "104 St", "(A)", "104 St", "193", "A63", "Q", "False", "A", "Elevated", "40.681711", "-73.837683", "0", null ]
+, [ "row-asr3~4kbb-6uqd", "00000000-0000-0000-9645-106BF176950A", 0, 1746418502, null, 1746418502, null, "{ }", "194", "False", "1", "111 St", "(A)", "111 St", "194", "A64", "Q", "False", "A", "Elevated", "40.684331", "-73.832163", "0", null ]
+, [ "row-97cy_upd7.7iju", "00000000-0000-0000-CEFC-A3AE8CB9F075", 0, 1746418502, null, 1746418502, null, "{ }", "195", "False", "1", "Ozone Park-Lefferts Blvd", "(A)", "Ozone Park-Lefferts Blvd", "195", "A65", "Q", "False", "A", "Elevated", "40.685951", "-73.825798", "1", null ]
+, [ "row-6e65_nk6w.wqy9", "00000000-0000-0000-696A-7CBA78D8A7D0", 0, 1746418502, null, 1746418502, null, "{ }", "196", "False", "1", "Aqueduct Racetrack", "(A)", "Aqueduct Racetrack", "196", "H01", "Q", "False", "A", "At Grade", "40.672097", "-73.835919", "1", null ]
+, [ "row-bvvp.seiv~2tnr", "00000000-0000-0000-86B9-3BD0EDFB75E6", 0, 1746418502, null, 1746418502, null, "{ }", "197", "False", "1", "Aqueduct-N Conduit Av", "(A)", "Aqueduct-N Conduit Av", "197", "H02", "Q", "False", "A", "At Grade", "40.668234", "-73.834058", "0", null ]
+, [ "row-fht2~swfd-rxpk", "00000000-0000-0000-32B3-1CAFD5E9933B", 0, 1746418502, null, 1746418502, null, "{ }", "198", "False", "1", "Howard Beach-JFK Airport", "(A)", "Howard Beach-JFK Airport", "198", "H03", "Q", "False", "A", "At Grade", "40.660476", "-73.830301", "1", null ]
+, [ "row-pmmx.pahx_264f", "00000000-0000-0000-D45A-86C088939320", 0, 1746418502, null, 1746418502, null, "{ }", "199", "False", "1", "Broad Channel", "(A,S)", "Broad Channel", "199", "H04", "Q", "False", "A S", "At Grade", "40.608382", "-73.815925", "0", null ]
+, [ "row-8km9~nnvc_8t3u", "00000000-0000-0000-526F-8BD217A11472", 0, 1746418502, null, 1746418502, null, "{ }", "200", "False", "1", "Beach 90 St", "(A,S)", "Beach 90 St", "200", "H12", "Q", "False", "A S", "Viaduct", "40.588034", "-73.813641", "0", null ]
+, [ "row-tngm-2k5a_5bkd", "00000000-0000-0000-618F-A380BFE6C61B", 0, 1746418502, null, 1746418502, null, "{ }", "201", "False", "1", "Beach 98 St", "(A,S)", "Beach 98 St", "201", "H13", "Q", "False", "A S", "Viaduct", "40.585307", "-73.820558", "0", null ]
+, [ "row-92b2~p736-6w5m", "00000000-0000-0000-200F-3BAB2B98B3EE", 0, 1746418502, null, 1746418502, null, "{ }", "202", "False", "1", "Beach 105 St", "(A,S)", "Beach 105 St", "202", "H14", "Q", "False", "A S", "Viaduct", "40.583209", "-73.827559", "0", null ]
+, [ "row-y6ff_znr9_qisc", "00000000-0000-0000-FC4F-301600D3CC78", 0, 1746418502, null, 1746418502, null, "{ }", "203", "False", "1", "Rockaway Park-Beach 116 St", "(A,S)", "Rockaway Park-Beach 116 St", "203", "H15", "Q", "False", "A S", "At Grade", "40.580903", "-73.835592", "1", null ]
+, [ "row-f9wa_wrz8_8fq9", "00000000-0000-0000-0C5C-C96133FDEA49", 0, 1746418502, null, 1746418502, null, "{ }", "204", "False", "1", "Beach 67 St", "(A)", "Beach 67 St", "204", "H06", "Q", "False", "A", "Viaduct", "40.590927", "-73.796924", "1", null ]
+, [ "row-z6hw_9via_7hzy", "00000000-0000-0000-2F6B-D26C7EFA4866", 0, 1746418502, null, 1746418502, null, "{ }", "205", "False", "1", "Beach 60 St", "(A)", "Beach 60 St", "205", "H07", "Q", "False", "A", "Viaduct", "40.592374", "-73.788522", "0", null ]
+, [ "row-pb4g.qei9~awjr", "00000000-0000-0000-2033-3385F1A3BD83", 0, 1746418502, null, 1746418502, null, "{ }", "206", "False", "1", "Beach 44 St", "(A)", "Beach 44 St", "206", "H08", "Q", "False", "A", "Viaduct", "40.592943", "-73.776013", "0", null ]
+, [ "row-wnfc_5n9q~b2pg", "00000000-0000-0000-4356-00A1D2C93E72", 0, 1746418502, null, 1746418502, null, "{ }", "207", "False", "1", "Beach 36 St", "(A)", "Beach 36 St", "207", "H09", "Q", "False", "A", "Viaduct", "40.595398", "-73.768175", "0", null ]
+, [ "row-27s2-xkf7~yb2q", "00000000-0000-0000-9C43-AABEDE485504", 0, 1746418502, null, 1746418502, null, "{ }", "208", "False", "1", "Beach 25 St", "(A)", "Beach 25 St", "208", "H10", "Q", "False", "A", "Viaduct", "40.600066", "-73.761353", "0", null ]
+, [ "row-8pn6~xpbh_jjfn", "00000000-0000-0000-44C2-B0D85826DBD1", 0, 1746418502, null, 1746418502, null, "{ }", "209", "False", "1", "Far Rockaway-Mott Av", "(A)", "Far Rockaway-Mott Av", "209", "H11", "Q", "False", "A", "Viaduct", "40.603995", "-73.755405", "1", null ]
+, [ "row-ypzp-pyvg_neza", "00000000-0000-0000-1354-813B76808DD6", 0, 1746418502, null, 1746418502, null, "{ }", "210", "False", "1", "Norwood-205 St", "(D)", "Norwood-205 St", "210", "D01", "Bx", "False", "D", "Subway", "40.874811", "-73.878855", "0", null ]
+, [ "row-qa5v.d3th-d7ab", "00000000-0000-0000-7F99-6C91152B3B85", 0, 1746418502, null, 1746418502, null, "{ }", "211", "False", "1", "Bedford Park Blvd", "(B,D)", "Bedford Park Blvd", "211", "D03", "Bx", "False", "B D", "Subway", "40.873244", "-73.887138", "1", null ]
+, [ "row-3v4i_c6wy-c5ih", "00000000-0000-0000-D689-599C18F2DFBB", 0, 1746418502, null, 1746418502, null, "{ }", "212", "False", "1", "Kingsbridge Rd", "(B,D)", "Kingsbridge Rd", "212", "D04", "Bx", "False", "B D", "Subway", "40.866978", "-73.893509", "1", null ]
+, [ "row-myha~irp7~p3he", "00000000-0000-0000-CB17-229F31E657CA", 0, 1746418502, null, 1746418502, null, "{ }", "213", "False", "1", "Fordham Rd", "(B,D)", "Fordham Rd", "213", "D05", "Bx", "False", "B D", "Subway", "40.861296", "-73.897749", "0", null ]
+, [ "row-ytxa.7h7f~igxc", "00000000-0000-0000-4A30-35DEEEDD1739", 0, 1746418502, null, 1746418502, null, "{ }", "214", "False", "1", "182-183 Sts", "(B,D)", "182-183 Sts", "214", "D06", "Bx", "False", "B D", "Subway", "40.856093", "-73.900741", "0", null ]
+, [ "row-45mx.84bf-cexj", "00000000-0000-0000-5CE8-3191EAF49BD0", 0, 1746418502, null, 1746418502, null, "{ }", "215", "False", "1", "Tremont Av", "(B,D)", "Tremont Av", "215", "D07", "Bx", "False", "B D", "Subway", "40.85041", "-73.905227", "1", null ]
+, [ "row-p37n.8pk6.2he4", "00000000-0000-0000-5879-279728283244", 0, 1746418502, null, 1746418502, null, "{ }", "216", "False", "1", "174-175 Sts", "(B,D)", "174-175 Sts", "216", "D08", "Bx", "False", "B D", "Subway", "40.8459", "-73.910136", "0", null ]
+, [ "row-nz8r_h5y7~a622", "00000000-0000-0000-F6CA-436E11277F9E", 0, 1746418502, null, 1746418502, null, "{ }", "217", "False", "1", "170 St", "(B,D)", "170 St", "217", "D09", "Bx", "False", "B D", "Subway", "40.839306", "-73.9134", "0", null ]
+, [ "row-z4se_278g-xm23", "00000000-0000-0000-D3E2-94D47CEC11EA", 0, 1746418502, null, 1746418502, null, "{ }", "218", "False", "1", "167 St", "(B,D)", "167 St", "218", "D10", "Bx", "False", "B D", "Subway", "40.833771", "-73.91844", "0", null ]
+, [ "row-aib2-6phv_x5s5", "00000000-0000-0000-B46B-1B4E1DB0FAFF", 0, 1746418502, null, 1746418502, null, "{ }", "220", "False", "1", "155 St", "(B,D)", "155 St", "220", "D12", "M", "False", "B D", "Subway", "40.830135", "-73.938209", "0", null ]
+, [ "row-7uts.kwxa_9agf", "00000000-0000-0000-34D4-233C60B51577", 0, 1746418502, null, 1746418502, null, "{ }", "221", "False", "1", "21 St-Queensbridge", "(F)", "21 St-Queensbridge", "221", "B04", "Q", "False", "F", "Subway", "40.754203", "-73.942836", "1", null ]
+, [ "row-ypsa-zqna_x2x4", "00000000-0000-0000-CD59-50D86EF71B60", 0, 1746418502, null, 1746418502, null, "{ }", "222", "False", "1", "Roosevelt Island", "(F)", "Roosevelt Island", "222", "B06", "M", "False", "F", "Subway", "40.759145", "-73.95326", "1", null ]
+, [ "row-67ye-ivz4.h8ap", "00000000-0000-0000-C7CF-4FD3E49F517F", 0, 1746418502, null, 1746418502, null, "{ }", "223", "False", "1", "Lexington Av/63 St", "(F,Q)", "Lexington Av/63 St", "223", "B08", "M", "False", "F Q", "Subway", "40.764629", "-73.966113", "1", null ]
+, [ "row-4wu4.bqac-7kke", "00000000-0000-0000-DD13-5462BC069299", 0, 1746418502, null, 1746418502, null, "{ }", "224", "False", "1", "57 St", "(F)", "57 St", "224", "B10", "M", "True", "F", "Subway", "40.763972", "-73.97745", "0", null ]
+, [ "row-tyri_cxv8~t6qu", "00000000-0000-0000-C1A6-C86AC120CD79", 0, 1746418502, null, 1746418502, null, "{ }", "225", "False", "1", "47-50 Sts-Rockefeller Ctr", "(B,D,F,M)", "47-50 Sts-Rockefeller Ctr", "225", "D15", "M", "True", "B D F M", "Subway", "40.758663", "-73.981329", "1", null ]
+, [ "row-dayy_ityu_9rjg", "00000000-0000-0000-4999-4829E231F944", 0, 1746418502, null, 1746418502, null, "{ }", "228", "False", "1", "23 St", "(F,M)", "23 St", "228", "D18", "M", "True", "F M", "Subway", "40.742878", "-73.992821", "0", null ]
+, [ "row-juca_rbhh.s7sv", "00000000-0000-0000-0C0D-E990B656DEDD", 0, 1746418502, null, 1746418502, null, "{ }", "231", "False", "1", "Grand St", "(B,D)", "Grand St", "231", "D22", "M", "True", "B D", "Subway", "40.718267", "-73.993753", "0", null ]
+, [ "row-v9v9.wxpd-3igk", "00000000-0000-0000-0D4F-85CFE85BD912", 0, 1746418502, null, 1746418502, null, "{ }", "232", "False", "1", "2 Av", "(F)", "2 Av", "232", "F14", "M", "True", "F", "Subway", "40.723402", "-73.989938", "0", null ]
+, [ "row-rrzr-5jiq_vuve", "00000000-0000-0000-EF99-0D9264124201", 0, 1746418502, null, 1746418502, null, "{ }", "234", "False", "1", "East Broadway", "(F)", "East Broadway", "234", "F16", "M", "True", "F", "Subway", "40.713715", "-73.990173", "0", null ]
+, [ "row-z2hu~7sg5~a6by", "00000000-0000-0000-7A67-2A811768470F", 0, 1746418502, null, 1746418502, null, "{ }", "235", "False", "1", "York St", "(F)", "York St", "235", "F18", "Bk", "False", "F", "Subway", "40.701397", "-73.986751", "0", null ]
+, [ "row-hdxz.ux44_cqnq", "00000000-0000-0000-9B6F-9039A793071A", 0, 1746418502, null, 1746418502, null, "{ }", "236", "False", "1", "Bergen St", "(F,G)", "Bergen St", "236", "F20", "Bk", "False", "F G", "Subway", "40.686145", "-73.990862", "0", null ]
+, [ "row-i9md_ajjv-sb2v", "00000000-0000-0000-6C56-B59963E55A2D", 0, 1746418502, null, 1746418502, null, "{ }", "237", "False", "1", "Carroll St", "(F,G)", "Carroll St", "237", "F21", "Bk", "False", "F G", "Subway", "40.680303", "-73.995048", "0", null ]
+, [ "row-7qad-4gyq~azbw", "00000000-0000-0000-4567-107342BED319", 0, 1746418502, null, 1746418502, null, "{ }", "238", "False", "1", "Smith-9 Sts", "(F,G)", "Smith-9 Sts", "238", "F22", "Bk", "False", "F G", "Viaduct", "40.67358", "-73.995959", "0", null ]
+, [ "row-72ar.xcys_9ph5", "00000000-0000-0000-B63A-F395E970A641", 0, 1746418502, null, 1746418502, null, "{ }", "240", "False", "1", "7 Av", "(F,G)", "7 Av", "240", "F24", "Bk", "False", "F G", "Subway", "40.666271", "-73.980305", "1", null ]
+, [ "row-3ep6.k929_bxtx", "00000000-0000-0000-9510-41F0CC874BC7", 0, 1746418502, null, 1746418502, null, "{ }", "241", "False", "1", "15 St-Prospect Park", "(F,G)", "15 St-Prospect Park", "241", "F25", "Bk", "False", "F G", "Subway", "40.660365", "-73.979493", "0", null ]
+, [ "row-dcn9_eha6-pqqb", "00000000-0000-0000-D9B0-4BE5518807BA", 0, 1746418502, null, 1746418502, null, "{ }", "242", "False", "1", "Fort Hamilton Pkwy", "(F,G)", "Fort Hamilton Pkwy", "242", "F26", "Bk", "False", "F G", "Subway", "40.650782", "-73.975776", "0", null ]
+, [ "row-gd5j.z9ub~3pwy", "00000000-0000-0000-CF31-FD6F7BC2F0C3", 0, 1746418502, null, 1746418502, null, "{ }", "243", "False", "1", "Church Av", "(F,G)", "Church Av", "243", "F27", "Bk", "False", "F G", "Subway", "40.644041", "-73.979678", "1", null ]
+, [ "row-8nig.a92v-vn33", "00000000-0000-0000-8678-2129813C1112", 0, 1746418502, null, 1746418502, null, "{ }", "244", "False", "1", "Ditmas Av", "(F)", "Ditmas Av", "244", "F29", "Bk", "False", "F", "Elevated", "40.636119", "-73.978172", "0", null ]
+, [ "row-te55_82zh_f6jn", "00000000-0000-0000-1FC7-0D5C69A0BFF3", 0, 1746418502, null, 1746418502, null, "{ }", "245", "False", "1", "18 Av", "(F)", "18 Av", "245", "F30", "Bk", "False", "F", "Elevated", "40.629755", "-73.976971", "0", null ]
+, [ "row-n96u.effc_jps6", "00000000-0000-0000-E9AC-AF087D9BB642", 0, 1746418502, null, 1746418502, null, "{ }", "246", "False", "1", "Avenue I", "(F)", "Avenue I", "246", "F31", "Bk", "False", "F", "Elevated", "40.625322", "-73.976127", "0", null ]
+, [ "row-kryq-9x92~v9r7", "00000000-0000-0000-3CF0-D3D4F00FF23C", 0, 1746418502, null, 1746418502, null, "{ }", "247", "False", "1", "Bay Pkwy", "(F)", "Bay Pkwy", "247", "F32", "Bk", "False", "F", "Elevated", "40.620769", "-73.975264", "0", null ]
+, [ "row-7i9c~mbuq.eywh", "00000000-0000-0000-A1B6-16937EF01424", 0, 1746418502, null, 1746418502, null, "{ }", "248", "False", "1", "Avenue N", "(F)", "Avenue N", "248", "F33", "Bk", "False", "F", "Elevated", "40.61514", "-73.974197", "0", null ]
+, [ "row-ek3u.sms5.a4au", "00000000-0000-0000-CB6E-66E7B6C89F16", 0, 1746418502, null, 1746418502, null, "{ }", "249", "False", "1", "Avenue P", "(F)", "Avenue P", "249", "F34", "Bk", "False", "F", "Elevated", "40.608944", "-73.973022", "0", null ]
+, [ "row-fdn2.jq4k-zffq", "00000000-0000-0000-BADD-3DCC5E6C79E6", 0, 1746418502, null, 1746418502, null, "{ }", "250", "False", "1", "Kings Hwy", "(F)", "Kings Hwy", "250", "F35", "Bk", "False", "F", "Elevated", "40.603217", "-73.972361", "0", null ]
+, [ "row-yeyh-uzkd~gzyg", "00000000-0000-0000-A5AE-03BB796FAB09", 0, 1746418502, null, 1746418502, null, "{ }", "251", "False", "1", "Avenue U", "(F)", "Avenue U", "251", "F36", "Bk", "False", "F", "Elevated", "40.596063", "-73.973357", "0", null ]
+, [ "row-z7xy.z7na~xn9p", "00000000-0000-0000-9279-3D95CC70F30E", 0, 1746418502, null, 1746418502, null, "{ }", "252", "False", "1", "Avenue X", "(F)", "Avenue X", "252", "F38", "Bk", "False", "F", "Elevated", "40.58962", "-73.97425", "0", null ]
+, [ "row-zqqc~y53v~qefq", "00000000-0000-0000-08BD-07E331221408", 0, 1746418502, null, 1746418502, null, "{ }", "253", "False", "1", "Neptune Av", "(F)", "Neptune Av", "253", "F39", "Bk", "False", "F", "Elevated", "40.581011", "-73.974574", "0", null ]
+, [ "row-bw8c-wjhy_7r6p", "00000000-0000-0000-9B5A-A21BD6E024A8", 0, 1746418502, null, 1746418502, null, "{ }", "254", "False", "1", "Jamaica-179 St", "(F)", "Jamaica-179 St", "254", "F01", "Q", "False", "F", "Subway", "40.712646", "-73.783817", "1", null ]
+, [ "row-phmk_r3sg-89j7", "00000000-0000-0000-B97B-879AEF76698E", 0, 1746418502, null, 1746418502, null, "{ }", "255", "False", "1", "169 St", "(F)", "169 St", "255", "F02", "Q", "False", "F", "Subway", "40.71047", "-73.793604", "0", null ]
+, [ "row-v6x7.82rt-6tre", "00000000-0000-0000-3BD7-0C8DD9956D83", 0, 1746418502, null, 1746418502, null, "{ }", "256", "False", "1", "Parsons Blvd", "(F)", "Parsons Blvd", "256", "F03", "Q", "False", "F", "Subway", "40.707564", "-73.803326", "0", null ]
+, [ "row-8af2~m7yj~3gks", "00000000-0000-0000-C106-56194C825806", 0, 1746418502, null, 1746418502, null, "{ }", "257", "False", "1", "Sutphin Blvd", "(F)", "Sutphin Blvd", "257", "F04", "Q", "False", "F", "Subway", "40.70546", "-73.810708", "0", null ]
+, [ "row-5jmv~qx3n~jmnu", "00000000-0000-0000-6E8C-23BB3E93D26F", 0, 1746418502, null, 1746418502, null, "{ }", "258", "False", "1", "Briarwood", "(E,F)", "Briarwood", "258", "F05", "Q", "False", "E F", "Subway", "40.709179", "-73.820574", "0", null ]
+, [ "row-xt78-wpet.xzga", "00000000-0000-0000-6753-FC913EA74603", 0, 1746418502, null, 1746418502, null, "{ }", "259", "False", "1", "Kew Gardens-Union Tpke", "(E,F)", "Kew Gardens-Union Tpke", "259", "F06", "Q", "False", "E F", "Subway", "40.714441", "-73.831008", "1", null ]
+, [ "row-2z8n~s2eh-nj7q", "00000000-0000-0000-A866-238C4241E7FA", 0, 1746418502, null, 1746418502, null, "{ }", "260", "False", "1", "75 Av", "(E,F)", "75 Av", "260", "F07", "Q", "False", "E F", "Subway", "40.718331", "-73.837324", "0", null ]
+, [ "row-xjix.5y4f_7vfi", "00000000-0000-0000-FC2D-2A9FFABB8700", 0, 1746418502, null, 1746418502, null, "{ }", "261", "False", "1", "Forest Hills-71 Av", "(E,F,M,R)", "Forest Hills-71 Av", "261", "G08", "Q", "False", "E F M R", "Subway", "40.721691", "-73.844521", "1", null ]
+, [ "row-89sj~awid~d7hu", "00000000-0000-0000-6F70-E7BC1EE929FD", 0, 1746418502, null, 1746418502, null, "{ }", "262", "False", "1", "67 Av", "(M,R)", "67 Av", "262", "G09", "Q", "False", "M R", "Subway", "40.726523", "-73.852719", "0", null ]
+, [ "row-cupu.78p7-ti4f", "00000000-0000-0000-21F4-4404169AA189", 0, 1746418502, null, 1746418502, null, "{ }", "263", "False", "1", "63 Dr-Rego Park", "(M,R)", "63 Dr-Rego Park", "263", "G10", "Q", "False", "M R", "Subway", "40.729846", "-73.861604", "0", null ]
+, [ "row-hkq2~zitt_nfpn", "00000000-0000-0000-F863-843BB184BAB4", 0, 1746418502, null, 1746418502, null, "{ }", "264", "False", "1", "Woodhaven Blvd", "(M,R)", "Woodhaven Blvd", "264", "G11", "Q", "False", "M R", "Subway", "40.733106", "-73.869229", "0", null ]
+, [ "row-pks8_q9m6~5ywr", "00000000-0000-0000-A6EC-F6C770DB0F03", 0, 1746418502, null, 1746418502, null, "{ }", "265", "False", "1", "Grand Av-Newtown", "(M,R)", "Grand Av-Newtown", "265", "G12", "Q", "False", "M R", "Subway", "40.737015", "-73.877223", "0", null ]
+, [ "row-zmsj-9zfj_tagd", "00000000-0000-0000-6F84-FA5397C0A628", 0, 1746418502, null, 1746418502, null, "{ }", "266", "False", "1", "Elmhurst Av", "(M,R)", "Elmhurst Av", "266", "G13", "Q", "False", "M R", "Subway", "40.742454", "-73.882017", "0", null ]
+, [ "row-x7gr~8w63.yvwn", "00000000-0000-0000-7ABC-FFDBEB36211E", 0, 1746418502, null, 1746418502, null, "{ }", "268", "False", "1", "65 St", "(M,R)", "65 St", "268", "G15", "Q", "False", "M R", "Subway", "40.749669", "-73.898453", "0", null ]
+, [ "row-bbp6-cpr5-9qp7", "00000000-0000-0000-1ED6-F7710EF7FE91", 0, 1746418502, null, 1746418502, null, "{ }", "269", "False", "1", "Northern Blvd", "(M,R)", "Northern Blvd", "269", "G16", "Q", "False", "M R", "Subway", "40.752885", "-73.906006", "2", "Outbound only" ]
+, [ "row-nxyc.eqkp_h84e", "00000000-0000-0000-5B87-0423E577082A", 0, 1746418502, null, 1746418502, null, "{ }", "270", "False", "1", "46 St", "(M,R)", "46 St", "270", "G18", "Q", "False", "M R", "Subway", "40.756312", "-73.913333", "0", null ]
+, [ "row-xx2c-n7u2.kdgq", "00000000-0000-0000-38AB-301A93F96357", 0, 1746418502, null, 1746418502, null, "{ }", "1", "False", "1", "Astoria-Ditmars Blvd", "(N,W)", "Astoria-Ditmars Blvd", "1", "R01", "Q", "False", "N W", "Elevated", "40.775036", "-73.912034", "0", null ]
+, [ "row-2raa_8b5a-rrsz", "00000000-0000-0000-F161-54AE7E766F81", 0, 1746418502, null, 1746418502, null, "{ }", "2", "False", "1", "Astoria Blvd", "(N,W)", "Astoria Blvd", "2", "R03", "Q", "False", "N W", "Elevated", "40.770258", "-73.917843", "1", null ]
+, [ "row-kr5p_bv92-ced5", "00000000-0000-0000-3C9E-11F1D649C871", 0, 1746418502, null, 1746418502, null, "{ }", "3", "False", "1", "30 Av", "(N,W)", "30 Av", "3", "R04", "Q", "False", "N W", "Elevated", "40.766779", "-73.921479", "0", null ]
+, [ "row-ck5b-6ay6.myee", "00000000-0000-0000-2D36-28D8647AB310", 0, 1746418502, null, 1746418502, null, "{ }", "4", "False", "1", "Broadway", "(N,W)", "Broadway", "4", "R05", "Q", "False", "N W", "Elevated", "40.76182", "-73.925508", "0", null ]
+, [ "row-yigh_z8bp.anyx", "00000000-0000-0000-954E-0ED6B4D5BACF", 0, 1746418502, null, 1746418502, null, "{ }", "5", "False", "1", "36 Av", "(N,W)", "36 Av", "5", "R06", "Q", "False", "N W", "Elevated", "40.756804", "-73.929575", "0", null ]
+, [ "row-d5cg.34sw.dm9p", "00000000-0000-0000-1921-C07643259A4F", 0, 1746418502, null, 1746418502, null, "{ }", "6", "False", "1", "39 Av-Dutch Kills", "(N,W)", "39 Av-Dutch Kills", "6", "R08", "Q", "False", "N W", "Elevated", "40.752882", "-73.932755", "0", null ]
+, [ "row-nnud.nri6_idsj", "00000000-0000-0000-4A7A-61E69E3453CE", 0, 1746418502, null, 1746418502, null, "{ }", "8", "False", "1", "5 Av/59 St", "(N,R,W)", "5 Av/59 St", "8", "R13", "M", "True", "N R W", "Subway", "40.764811", "-73.973347", "0", null ]
+, [ "row-7ir8-544s-e4i5", "00000000-0000-0000-9DD1-272514156DDE", 0, 1746418502, null, 1746418502, null, "{ }", "9", "False", "1", "57 St-7 Av", "(N,Q,R,W)", "57 St-7 Av", "9", "R14", "M", "True", "N Q R W", "Subway", "40.764664", "-73.980658", "1", null ]
+, [ "row-64fr~t9hx~4g3p", "00000000-0000-0000-8FDD-913F711407C3", 0, 1746418502, null, 1746418502, null, "{ }", "10", "False", "1", "49 St", "(N,R,W)", "49 St", "10", "R15", "M", "True", "N R W", "Subway", "40.759901", "-73.984139", "2", "Uptown only" ]
+, [ "row-sdkw_6xpt_dnrz", "00000000-0000-0000-CCC8-A06B917CB960", 0, 1746418502, null, 1746418502, null, "{ }", "13", "False", "1", "28 St", "(R,W)", "28 St", "13", "R18", "M", "True", "R W", "Subway", "40.745494", "-73.988691", "0", null ]
+, [ "row-fhdd.xwyu_bers", "00000000-0000-0000-A782-6B631B563034", 0, 1746418502, null, 1746418502, null, "{ }", "14", "False", "1", "23 St", "(R,W)", "23 St", "14", "R19", "M", "True", "R W", "Subway", "40.741303", "-73.989344", "0", null ]
+, [ "row-6t4t~8dkp_xrtm", "00000000-0000-0000-A0B4-3B1D1474E67C", 0, 1746418502, null, 1746418502, null, "{ }", "16", "False", "1", "8 St-NYU", "(R,W)", "8 St-NYU", "16", "R21", "M", "True", "R W", "Subway", "40.730328", "-73.992629", "0", null ]
+, [ "row-bfwt-x322_7eqj", "00000000-0000-0000-AA8A-59FD620DE7FB", 0, 1746418502, null, 1746418502, null, "{ }", "17", "False", "1", "Prince St", "(R,W)", "Prince St", "17", "R22", "M", "True", "R W", "Subway", "40.724329", "-73.997702", "0", null ]
+, [ "row-swf5.c7xw~afaq", "00000000-0000-0000-48FB-599AE48CBBAB", 0, 1746418502, null, 1746418502, null, "{ }", "20", "False", "1", "City Hall", "(R,W)", "City Hall", "20", "R24", "M", "True", "R W", "Subway", "40.713282", "-74.006978", "0", null ]
+, [ "row-ynqz-pbv4~vb8n", "00000000-0000-0000-77BA-41462701C227", 0, 1746418502, null, 1746418502, null, "{ }", "22", "False", "1", "Rector St", "(R,W)", "Rector St", "22", "R26", "M", "True", "R W", "Subway", "40.70722", "-74.013342", "0", null ]
+, [ "row-vesc-dswv.vvz4", "00000000-0000-0000-3E84-FFB4CB216ACC", 0, 1746418502, null, 1746418502, null, "{ }", "26", "False", "1", "DeKalb Av", "(B,Q,R)", "DeKalb Av", "26", "R30", "Bk", "False", "B Q R", "Subway", "40.690635", "-73.981824", "1", null ]
+, [ "row-m29a.iytr_jn9s", "00000000-0000-0000-012D-A898A8F6CF63", 0, 1746418502, null, 1746418502, null, "{ }", "28", "False", "1", "Union St", "(R)", "Union St", "28", "R32", "Bk", "False", "R", "Subway", "40.677316", "-73.98311", "0", null ]
+, [ "row-uenn.ivry_wniv", "00000000-0000-0000-97FA-1155E6A0C037", 0, 1746418502, null, 1746418502, null, "{ }", "30", "False", "1", "Prospect Av", "(R)", "Prospect Av", "30", "R34", "Bk", "False", "R", "Subway", "40.665414", "-73.992872", "0", null ]
+, [ "row-7bgm_63pe~4d3a", "00000000-0000-0000-A445-C4580C7725F1", 0, 1746418502, null, 1746418502, null, "{ }", "31", "False", "1", "25 St", "(R)", "25 St", "31", "R35", "Bk", "False", "R", "Subway", "40.660397", "-73.998091", "0", null ]
+, [ "row-pu3r.egk2-vgi5", "00000000-0000-0000-4762-C5326E76CF00", 0, 1746418502, null, 1746418502, null, "{ }", "32", "False", "1", "36 St", "(D,N,R)", "36 St", "32", "R36", "Bk", "False", "D N R", "Subway", "40.655144", "-74.003549", "0", null ]
+, [ "row-t93g.7ikp-3zqt", "00000000-0000-0000-4897-B2D0CB7B55F5", 0, 1746418502, null, 1746418502, null, "{ }", "33", "False", "1", "45 St", "(R)", "45 St", "33", "R39", "Bk", "False", "R", "Subway", "40.648939", "-74.010006", "0", null ]
+, [ "row-m78w.zms2_qhk4", "00000000-0000-0000-6A6B-050C2327E9E4", 0, 1746418502, null, 1746418502, null, "{ }", "34", "False", "1", "53 St", "(R)", "53 St", "34", "R40", "Bk", "False", "R", "Subway", "40.645069", "-74.014034", "0", null ]
+, [ "row-jym2.ads3.eyv9", "00000000-0000-0000-0855-4DDE47A1D6CD", 0, 1746418502, null, 1746418502, null, "{ }", "35", "False", "1", "59 St", "(N,R)", "59 St", "35", "R41", "Bk", "False", "N R", "Subway", "40.641362", "-74.017881", "1", null ]
+, [ "row-m7hx-kj3h-dp5p", "00000000-0000-0000-1309-45C12C431F35", 0, 1746418502, null, 1746418502, null, "{ }", "36", "False", "1", "Bay Ridge Av", "(R)", "Bay Ridge Av", "36", "R42", "Bk", "False", "R", "Subway", "40.634967", "-74.023377", "0", null ]
+, [ "row-e543.zpdd-7dte", "00000000-0000-0000-BA47-F14F459B7C82", 0, 1746418502, null, 1746418502, null, "{ }", "37", "False", "1", "77 St", "(R)", "77 St", "37", "R43", "Bk", "False", "R", "Subway", "40.629742", "-74.02551", "0", null ]
+, [ "row-7yuj.j3sk-4guw", "00000000-0000-0000-BB3C-CE6F52D6BED6", 0, 1746418502, null, 1746418502, null, "{ }", "38", "False", "1", "86 St", "(R)", "86 St", "38", "R44", "Bk", "False", "R", "Subway", "40.622687", "-74.028398", "1", null ]
+, [ "row-gyaz-z5g8_jebr", "00000000-0000-0000-E8D7-6321B38D14E0", 0, 1746418502, null, 1746418502, null, "{ }", "39", "False", "1", "Bay Ridge-95 St", "(R)", "Bay Ridge-95 St", "39", "R45", "Bk", "False", "R", "Subway", "40.616622", "-74.030876", "0", null ]
+, [ "row-gmn8.evgm-uy2a", "00000000-0000-0000-FD6E-7FC991BC7D69", 0, 1746418502, null, 1746418502, null, "{ }", "41", "False", "1", "7 Av", "(B,Q)", "7 Av", "41", "D25", "Bk", "False", "B Q", "Subway", "40.67705", "-73.972367", "0", null ]
+, [ "row-vffs-xik9.kgxr", "00000000-0000-0000-4E3B-43D4A217E411", 0, 1746418502, null, 1746418502, null, "{ }", "42", "False", "1", "Prospect Park", "(B,Q,S)", "Prospect Park", "42", "D26", "Bk", "False", "B Q S", "Open Cut", "40.661614", "-73.962246", "1", null ]
+, [ "row-59gd.5fj4.7g8p", "00000000-0000-0000-ED00-06ED8B804262", 0, 1746418502, null, 1746418502, null, "{ }", "43", "False", "1", "Parkside Av", "(Q)", "Parkside Av", "43", "D27", "Bk", "False", "Q", "Open Cut", "40.655292", "-73.961495", "0", null ]
+, [ "row-8xy8-ii6h-ts5r", "00000000-0000-0000-C11F-9CA91E36E139", 0, 1746418502, null, 1746418502, null, "{ }", "44", "False", "1", "Church Av", "(B,Q)", "Church Av", "44", "D28", "Bk", "False", "B Q", "Open Cut", "40.650527", "-73.962982", "0", null ]
+, [ "row-dpgn~rvzp.xak2", "00000000-0000-0000-EB98-01D08EAD4229", 0, 1746418502, null, 1746418502, null, "{ }", "45", "False", "1", "Beverley Rd", "(Q)", "Beverley Rd", "45", "D29", "Bk", "False", "Q", "Open Cut", "40.644031", "-73.964492", "0", null ]
+, [ "row-6qt5_p5v2~wmpe", "00000000-0000-0000-235F-E0A82C0FBB45", 0, 1746418502, null, 1746418502, null, "{ }", "46", "False", "1", "Cortelyou Rd", "(Q)", "Cortelyou Rd", "46", "D30", "Bk", "False", "Q", "Open Cut", "40.640927", "-73.963891", "0", null ]
+, [ "row-z6gr~fhkr~pk2u", "00000000-0000-0000-498F-93858768F458", 0, 1746418502, null, 1746418502, null, "{ }", "47", "False", "1", "Newkirk Plaza", "(B,Q)", "Newkirk Plaza", "47", "D31", "Bk", "False", "B Q", "Open Cut", "40.635082", "-73.962793", "0", null ]
+, [ "row-pvsq~ckdk~j3n9", "00000000-0000-0000-13D9-15F8E1EB78FF", 0, 1746418502, null, 1746418502, null, "{ }", "48", "False", "1", "Avenue H", "(Q)", "Avenue H", "48", "D32", "Bk", "False", "Q", "Open Cut", "40.62927", "-73.961639", "1", null ]
+, [ "row-whmx-2yju~e34v", "00000000-0000-0000-EF91-9977E4676310", 0, 1746418502, null, 1746418502, null, "{ }", "49", "False", "1", "Avenue J", "(Q)", "Avenue J", "49", "D33", "Bk", "False", "Q", "Open Cut", "40.625039", "-73.960803", "0", null ]
+, [ "row-eeix_rc64.wk6c", "00000000-0000-0000-75B5-B36B08A70010", 0, 1746418502, null, 1746418502, null, "{ }", "50", "False", "1", "Avenue M", "(Q)", "Avenue M", "50", "D34", "Bk", "False", "Q", "Open Cut", "40.617618", "-73.959399", "0", null ]
+, [ "row-xmbs-f32j_7zmd", "00000000-0000-0000-1753-CEA4EDE6328F", 0, 1746418502, null, 1746418502, null, "{ }", "51", "False", "1", "Kings Hwy", "(B,Q)", "Kings Hwy", "51", "D35", "Bk", "False", "B Q", "Open Cut", "40.60867", "-73.957734", "1", null ]
+, [ "row-g3kd-9jpj~2m9m", "00000000-0000-0000-19EF-7E040B9B4F85", 0, 1746418502, null, 1746418502, null, "{ }", "52", "False", "1", "Avenue U", "(Q)", "Avenue U", "52", "D37", "Bk", "False", "Q", "Open Cut", "40.5993", "-73.955929", "0", null ]
+, [ "row-wuuv-fvww_8h4i", "00000000-0000-0000-67D9-A3F862B46A2F", 0, 1746418502, null, 1746418502, null, "{ }", "53", "False", "1", "Neck Rd", "(Q)", "Neck Rd", "53", "D38", "Bk", "False", "Q", "Open Cut", "40.595246", "-73.955161", "0", null ]
+, [ "row-kuxm_rgu4_4h34", "00000000-0000-0000-33DC-BC18A2CFE2AF", 0, 1746418502, null, 1746418502, null, "{ }", "54", "False", "1", "Sheepshead Bay", "(B,Q)", "Sheepshead Bay", "54", "D39", "Bk", "False", "B Q", "Open Cut", "40.586896", "-73.954155", "0", null ]
+, [ "row-ddgy~cvwg~6y2e", "00000000-0000-0000-15CE-4F0FFE34516F", 0, 1746418502, null, 1746418502, null, "{ }", "55", "False", "1", "Brighton Beach", "(B,Q)", "Brighton Beach", "55", "D40", "Bk", "False", "B Q", "Elevated", "40.577621", "-73.961376", "0", null ]
+, [ "row-7d2g.cpse.g942", "00000000-0000-0000-2824-E27E5A4A2D9D", 0, 1746418502, null, 1746418502, null, "{ }", "56", "False", "1", "Ocean Pkwy", "(Q)", "Ocean Pkwy", "56", "D41", "Bk", "False", "Q", "Elevated", "40.576312", "-73.968501", "0", null ]
+, [ "row-n3p8.gfsf-y7ec", "00000000-0000-0000-9817-46C78F627A99", 0, 1746418502, null, 1746418502, null, "{ }", "57", "False", "1", "W 8 St-NY Aquarium", "(F,Q)", "W 8 St-NY Aquarium", "57", "D42", "Bk", "False", "F Q", "Elevated", "40.576127", "-73.975939", "0", null ]
+, [ "row-wmpt_4dpu~z52y", "00000000-0000-0000-9B8B-268022A2CE44", 0, 1746418502, null, 1746418502, null, "{ }", "58", "False", "1", "Coney Island-Stillwell Av", "(D,F,N,Q)", "Coney Island-Stillwell Av", "58", "D43", "Bk", "False", "D F N Q", "Viaduct", "40.577422", "-73.981233", "1", null ]
+, [ "row-jpin.cxf6~pcd2", "00000000-0000-0000-56DE-FC6062FB0657", 0, 1746418502, null, 1746418502, null, "{ }", "59", "False", "1", "9 Av", "(D)", "9 Av", "59", "B12", "Bk", "False", "D", "Open Cut", "40.646292", "-73.994324", "0", null ]
+, [ "row-gum9_rbk6_azx5", "00000000-0000-0000-07FF-62A5BDBB4C4A", 0, 1746418502, null, 1746418502, null, "{ }", "60", "False", "1", "Fort Hamilton Pkwy", "(D)", "Fort Hamilton Pkwy", "60", "B13", "Bk", "False", "D", "Elevated", "40.640914", "-73.994304", "0", null ]
+, [ "row-ieh8_7hhm.vrvn", "00000000-0000-0000-B9DD-D17889129B11", 0, 1746418502, null, 1746418502, null, "{ }", "61", "False", "1", "50 St", "(D)", "50 St", "61", "B14", "Bk", "False", "D", "Elevated", "40.63626", "-73.994791", "0", null ]
+, [ "row-q8u4.e66u-4uxp", "00000000-0000-0000-8A68-B437C23531AA", 0, 1746418502, null, 1746418502, null, "{ }", "62", "False", "1", "55 St", "(D)", "55 St", "62", "B15", "Bk", "False", "D", "Elevated", "40.631435", "-73.995476", "0", null ]
+, [ "row-rg3i.ufpi_cyqk", "00000000-0000-0000-5A8E-216AEB0AAE64", 0, 1746418502, null, 1746418502, null, "{ }", "64", "False", "1", "71 St", "(D)", "71 St", "64", "B17", "Bk", "False", "D", "Elevated", "40.619589", "-73.998864", "0", null ]
+, [ "row-8vme_5eg4.g5r7", "00000000-0000-0000-E3DD-7998A52EE057", 0, 1746418502, null, 1746418502, null, "{ }", "65", "False", "1", "79 St", "(D)", "79 St", "65", "B18", "Bk", "False", "D", "Elevated", "40.613501", "-74.00061", "0", null ]
+, [ "row-fmiv-tven~fxnj", "00000000-0000-0000-0434-15FFB520D4AB", 0, 1746418502, null, 1746418502, null, "{ }", "66", "False", "1", "18 Av", "(D)", "18 Av", "66", "B19", "Bk", "False", "D", "Elevated", "40.607954", "-74.001736", "0", null ]
+, [ "row-8pk9-6eba.j8wy", "00000000-0000-0000-D2B8-0464F6D681AF", 0, 1746418502, null, 1746418502, null, "{ }", "67", "False", "1", "20 Av", "(D)", "20 Av", "67", "B20", "Bk", "False", "D", "Elevated", "40.604556", "-73.998168", "0", null ]
+, [ "row-5rjg.miqk.azp4", "00000000-0000-0000-9523-F3A179DDD203", 0, 1746418502, null, 1746418502, null, "{ }", "68", "False", "1", "Bay Pkwy", "(D)", "Bay Pkwy", "68", "B21", "Bk", "False", "D", "Elevated", "40.601875", "-73.993728", "1", null ]
+, [ "row-kjqx~cp6v-8g5m", "00000000-0000-0000-6965-F377602708AC", 0, 1746418502, null, 1746418502, null, "{ }", "69", "False", "1", "25 Av", "(D)", "25 Av", "69", "B22", "Bk", "False", "D", "Elevated", "40.597704", "-73.986829", "0", null ]
+, [ "row-w7dz~ge4d~mrpr", "00000000-0000-0000-B787-2371417347BB", 0, 1746418502, null, 1746418502, null, "{ }", "70", "False", "1", "Bay 50 St", "(D)", "Bay 50 St", "70", "B23", "Bk", "False", "D", "Elevated", "40.588841", "-73.983765", "0", null ]
+, [ "row-mqd2~g7f3.ypte", "00000000-0000-0000-E77E-730AB7246C14", 0, 1746418502, null, 1746418502, null, "{ }", "71", "False", "1", "8 Av", "(N)", "8 Av", "71", "N02", "Bk", "False", "N", "Open Cut", "40.635064", "-74.011719", "1", null ]
+, [ "row-b954-gtnu~hyb4", "00000000-0000-0000-3317-3342B327A3C1", 0, 1746418502, null, 1746418502, null, "{ }", "72", "False", "1", "Fort Hamilton Pkwy", "(N)", "Fort Hamilton Pkwy", "72", "N03", "Bk", "False", "N", "Open Cut", "40.631386", "-74.005351", "0", null ]
+, [ "row-z4ea_sayx~sdw7", "00000000-0000-0000-E584-F2A5BDA0D094", 0, 1746418502, null, 1746418502, null, "{ }", "74", "False", "1", "18 Av", "(N)", "18 Av", "74", "N05", "Bk", "False", "N", "Open Cut", "40.620671", "-73.990414", "0", null ]
+, [ "row-i4gq-b5sv-vbe4", "00000000-0000-0000-445D-D451C69E4730", 0, 1746418502, null, 1746418502, null, "{ }", "75", "False", "1", "20 Av", "(N)", "20 Av", "75", "N06", "Bk", "False", "N", "Open Cut", "40.61741", "-73.985026", "0", null ]
+, [ "row-ynri-9rz3-6d2q", "00000000-0000-0000-CFA2-E0A16DD2DFEE", 0, 1746418502, null, 1746418502, null, "{ }", "76", "False", "1", "Bay Pkwy", "(N)", "Bay Pkwy", "76", "N07", "Bk", "False", "N", "Open Cut", "40.611815", "-73.981848", "0", null ]
+, [ "row-yucn~bmiz~5wxu", "00000000-0000-0000-9FA8-E841505250A0", 0, 1746418502, null, 1746418502, null, "{ }", "77", "False", "1", "Kings Hwy", "(N)", "Kings Hwy", "77", "N08", "Bk", "False", "N", "Open Cut", "40.603923", "-73.980353", "0", null ]
+, [ "row-w32u-wajn~st7g", "00000000-0000-0000-844C-308672B82CC6", 0, 1746418502, null, 1746418502, null, "{ }", "78", "False", "1", "Avenue U", "(N)", "Avenue U", "78", "N09", "Bk", "False", "N", "Open Cut", "40.597473", "-73.979137", "0", null ]
+, [ "row-xkfw_fhs8.d652", "00000000-0000-0000-25CB-009E75477FE2", 0, 1746418502, null, 1746418502, null, "{ }", "79", "False", "1", "86 St", "(N)", "86 St", "79", "N10", "Bk", "False", "N", "Open Cut", "40.592721", "-73.97823", "0", null ]
+, [ "row-5grs.kust_qy9p", "00000000-0000-0000-56AD-6225652D9B05", 0, 1746418502, null, 1746418502, null, "{ }", "80", "False", "1", "121 St", "(J,Z)", "121 St", "80", "J12", "Q", "False", "J Z", "Elevated", "40.700492", "-73.828294", "0", null ]
+, [ "row-m2gw_z5ny-3659", "00000000-0000-0000-BA89-AD4CE7FC32A1", 0, 1746418502, null, 1746418502, null, "{ }", "81", "False", "1", "111 St", "(J)", "111 St", "81", "J13", "Q", "False", "J", "Elevated", "40.697418", "-73.836345", "0", null ]
+, [ "row-mzpr-w92e~tvcv", "00000000-0000-0000-2C74-B32721D1D755", 0, 1746418502, null, 1746418502, null, "{ }", "82", "False", "1", "104 St", "(J,Z)", "104 St", "82", "J14", "Q", "False", "J Z", "Elevated", "40.695178", "-73.84433", "0", null ]
+, [ "row-b3w9.7btq_aa6p", "00000000-0000-0000-0C52-7A54F472C575", 0, 1746418502, null, 1746418502, null, "{ }", "83", "False", "1", "Woodhaven Blvd", "(J,Z)", "Woodhaven Blvd", "83", "J15", "Q", "False", "J Z", "Elevated", "40.693879", "-73.851576", "1", null ]
+, [ "row-7xg6_e8jx-i9kb", "00000000-0000-0000-2494-304FE19A180A", 0, 1746418502, null, 1746418502, null, "{ }", "84", "False", "1", "85 St-Forest Pkwy", "(J)", "85 St-Forest Pkwy", "84", "J16", "Q", "False", "J", "Elevated", "40.692435", "-73.86001", "0", null ]
+, [ "row-2ejf~s3qw-qe38", "00000000-0000-0000-DB15-C1F075856B0F", 0, 1746418502, null, 1746418502, null, "{ }", "85", "False", "1", "75 St-Elderts Ln", "(J,Z)", "75 St-Elderts Ln", "85", "J17", "Q", "False", "J Z", "Elevated", "40.691324", "-73.867139", "0", null ]
+, [ "row-5ui7~efbg~s9zq", "00000000-0000-0000-9E8B-73C87D470B3A", 0, 1746418502, null, 1746418502, null, "{ }", "86", "False", "1", "Cypress Hills", "(J)", "Cypress Hills", "86", "J19", "Bk", "False", "J", "Elevated", "40.689941", "-73.87255", "0", null ]
+, [ "row-7ag3_kwzd.h69r", "00000000-0000-0000-0A17-7A6BA1AB91B1", 0, 1746418502, null, 1746418502, null, "{ }", "87", "False", "1", "Crescent St", "(J,Z)", "Crescent St", "87", "J20", "Bk", "False", "J Z", "Elevated", "40.683194", "-73.873785", "0", null ]
+, [ "row-7x56~qsns.937i", "00000000-0000-0000-1289-5A2A99D54335", 0, 1746418502, null, 1746418502, null, "{ }", "88", "False", "1", "Norwood Av", "(J,Z)", "Norwood Av", "88", "J21", "Bk", "False", "J Z", "Elevated", "40.68141", "-73.880039", "0", null ]
+, [ "row-82vb_hq4p_ysax", "00000000-0000-0000-7F9C-19826009CDC2", 0, 1746418502, null, 1746418502, null, "{ }", "89", "False", "1", "Cleveland St", "(J)", "Cleveland St", "89", "J22", "Bk", "False", "J", "Elevated", "40.679947", "-73.884639", "0", null ]
+, [ "row-5r55_8kvj-qgs5", "00000000-0000-0000-1522-D4E9F05E0C5B", 0, 1746418502, null, 1746418502, null, "{ }", "90", "False", "1", "Van Siclen Av", "(J,Z)", "Van Siclen Av", "90", "J23", "Bk", "False", "J Z", "Elevated", "40.678024", "-73.891688", "0", null ]
+, [ "row-k7mr-uxrm_fvhk", "00000000-0000-0000-BAC1-8A25D002C04F", 0, 1746418502, null, 1746418502, null, "{ }", "91", "False", "1", "Alabama Av", "(J,Z)", "Alabama Av", "91", "J24", "Bk", "False", "J Z", "Elevated", "40.676992", "-73.898654", "0", null ]
+, [ "row-smid_ig8q-ew82", "00000000-0000-0000-36E3-9AF1859A6705", 0, 1746418502, null, 1746418502, null, "{ }", "93", "False", "1", "Chauncey St", "(J,Z)", "Chauncey St", "93", "J28", "Bk", "False", "J Z", "Elevated", "40.682893", "-73.910456", "0", null ]
+, [ "row-nexk_encx_k64x", "00000000-0000-0000-A0A7-23418E576251", 0, 1746418502, null, 1746418502, null, "{ }", "94", "False", "1", "Halsey St", "(J)", "Halsey St", "94", "J29", "Bk", "False", "J", "Elevated", "40.68637", "-73.916559", "0", null ]
+, [ "row-8frj-94g3~unpi", "00000000-0000-0000-A9FD-82482FD8DFB5", 0, 1746418502, null, 1746418502, null, "{ }", "95", "False", "1", "Gates Av", "(J,Z)", "Gates Av", "95", "J30", "Bk", "False", "J Z", "Elevated", "40.68963", "-73.92227", "0", null ]
+, [ "row-rwjz.kt2z_v3z4", "00000000-0000-0000-C2AC-2BC042A298DA", 0, 1746418502, null, 1746418502, null, "{ }", "96", "False", "1", "Kosciuszko St", "(J)", "Kosciuszko St", "96", "J31", "Bk", "False", "J", "Elevated", "40.693342", "-73.928814", "0", null ]
+, [ "row-uap8_2dgt~qpta", "00000000-0000-0000-D34D-CD2C5008B9A4", 0, 1746418502, null, 1746418502, null, "{ }", "97", "False", "1", "Myrtle Av", "(M,J,Z)", "Myrtle Av", "97", "M11", "Bk", "False", "M J Z", "Elevated", "40.697207", "-73.935657", "0", null ]
+, [ "row-e8vw_che9.9cdy", "00000000-0000-0000-60AB-D5ABE90E4EC0", 0, 1746418502, null, 1746418502, null, "{ }", "98", "False", "1", "Flushing Av", "(M,J)", "Flushing Av", "98", "M12", "Bk", "False", "M J", "Elevated", "40.70026", "-73.941126", "1", null ]
+, [ "row-2d9g.rxw8~dzy3", "00000000-0000-0000-A6FE-C672F4E96963", 0, 1746418502, null, 1746418502, null, "{ }", "99", "False", "1", "Lorimer St", "(M,J)", "Lorimer St", "99", "M13", "Bk", "False", "M J", "Elevated", "40.703869", "-73.947408", "0", null ]
+, [ "row-z9e7~a6gn.pfrz", "00000000-0000-0000-AA57-071656191BDF", 0, 1746418502, null, 1746418502, null, "{ }", "100", "False", "1", "Hewes St", "(M,J)", "Hewes St", "100", "M14", "Bk", "False", "M J", "Elevated", "40.70687", "-73.953431", "0", null ]
+, [ "row-d8bj~igs3-r3gm", "00000000-0000-0000-1DC5-6A9AFD15876E", 0, 1746418502, null, 1746418502, null, "{ }", "101", "False", "1", "Marcy Av", "(M,J,Z)", "Marcy Av", "101", "M16", "Bk", "False", "M J Z", "Elevated", "40.708359", "-73.957757", "1", null ]
+, [ "row-8fd2~gpid~waku", "00000000-0000-0000-F700-FE212B2AC8EF", 0, 1746418502, null, 1746418502, null, "{ }", "103", "False", "1", "Bowery", "(J,Z)", "Bowery", "103", "M19", "M", "True", "J Z", "Subway", "40.72028", "-73.993915", "0", null ]
+, [ "row-uz4d-rbpp~k4de", "00000000-0000-0000-4CB1-8FFA4115837E", 0, 1746418502, null, 1746418502, null, "{ }", "107", "False", "1", "Broad St", "(J,Z)", "Broad St", "107", "M23", "M", "True", "J Z", "Subway", "40.706476", "-74.011056", "0", null ]
+, [ "row-xa8c~f8x9_rgej", "00000000-0000-0000-9944-2B44FC0082FF", 0, 1746418502, null, 1746418502, null, "{ }", "108", "False", "1", "Middle Village-Metropolitan Av", "(M)", "Middle Village-Metropolitan Av", "108", "M01", "Q", "False", "M", "Elevated", "40.711396", "-73.889601", "1", null ]
+, [ "row-u955~m2wc-q9b4", "00000000-0000-0000-364C-177D36C14294", 0, 1746418502, null, 1746418502, null, "{ }", "109", "False", "1", "Fresh Pond Rd", "(M)", "Fresh Pond Rd", "109", "M04", "Q", "False", "M", "Elevated", "40.706186", "-73.895877", "0", null ]
+, [ "row-bz2x-ivjm.5k54", "00000000-0000-0000-84D3-4330DB9B36AF", 0, 1746418502, null, 1746418502, null, "{ }", "110", "False", "1", "Forest Av", "(M)", "Forest Av", "110", "M05", "Q", "False", "M", "Elevated", "40.704423", "-73.903077", "0", null ]
+, [ "row-kjkt-3wez-56e7", "00000000-0000-0000-928C-4E955646E59F", 0, 1746418502, null, 1746418502, null, "{ }", "111", "False", "1", "Seneca Av", "(M)", "Seneca Av", "111", "M06", "Q", "False", "M", "Elevated", "40.702762", "-73.90774", "0", null ]
+, [ "row-i282~xb5p.2h8p", "00000000-0000-0000-D6C4-DBF8B9777CB0", 0, 1746418502, null, 1746418502, null, "{ }", "113", "False", "1", "Knickerbocker Av", "(M)", "Knickerbocker Av", "113", "M09", "Bk", "False", "M", "Elevated", "40.698664", "-73.919711", "0", null ]
+, [ "row-pqwu_28b2~b8r9", "00000000-0000-0000-E09F-F655010CEBFF", 0, 1746418502, null, 1746418502, null, "{ }", "114", "False", "1", "Central Av", "(M)", "Central Av", "114", "M10", "Bk", "False", "M", "Elevated", "40.697857", "-73.927397", "0", null ]
+, [ "row-fyku.qseq-ucwq", "00000000-0000-0000-A91B-8D1B5968A4AB", 0, 1746418502, null, 1746418502, null, "{ }", "118", "False", "1", "3 Av", "(L)", "3 Av", "118", "L05", "M", "True", "L", "Subway", "40.732849", "-73.986122", "0", null ]
+, [ "row-6mac.7sg3~3iib", "00000000-0000-0000-B43C-F4358BA3E640", 0, 1746418502, null, 1746418502, null, "{ }", "119", "False", "1", "1 Av", "(L)", "1 Av", "119", "L06", "M", "True", "L", "Subway", "40.730953", "-73.981628", "1", null ]
+, [ "row-ygrb-w49w-s2ff", "00000000-0000-0000-9FFE-89449BAF4867", 0, 1746418502, null, 1746418502, null, "{ }", "120", "False", "1", "Bedford Av", "(L)", "Bedford Av", "120", "L08", "Bk", "False", "L", "Subway", "40.717304", "-73.956872", "1", null ]
+, [ "row-j2v8~5qf3-m8n8", "00000000-0000-0000-4B6C-C07DE1372465", 0, 1746418502, null, 1746418502, null, "{ }", "122", "False", "1", "Graham Av", "(L)", "Graham Av", "122", "L11", "Bk", "False", "L", "Subway", "40.714565", "-73.944053", "0", null ]
+, [ "row-et5x-epev_w97f", "00000000-0000-0000-24E9-17F42B277FF5", 0, 1746418502, null, 1746418502, null, "{ }", "123", "False", "1", "Grand St", "(L)", "Grand St", "123", "L12", "Bk", "False", "L", "Subway", "40.711926", "-73.94067", "1", null ]
+, [ "row-2jt4-7zq9_wdkg", "00000000-0000-0000-BB30-078864BC58A7", 0, 1746418502, null, 1746418502, null, "{ }", "124", "False", "1", "Montrose Av", "(L)", "Montrose Av", "124", "L13", "Bk", "False", "L", "Subway", "40.707739", "-73.93985", "0", null ]
+, [ "row-6h8y~3fc9_dsev", "00000000-0000-0000-0971-2588EB7383CA", 0, 1746418502, null, 1746418502, null, "{ }", "125", "False", "1", "Morgan Av", "(L)", "Morgan Av", "125", "L14", "Bk", "False", "L", "Subway", "40.706152", "-73.933147", "0", null ]
+, [ "row-5g54~bs78_fiqx", "00000000-0000-0000-5D65-883C1882E12A", 0, 1746418502, null, 1746418502, null, "{ }", "126", "False", "1", "Jefferson St", "(L)", "Jefferson St", "126", "L15", "Bk", "False", "L", "Subway", "40.706607", "-73.922913", "0", null ]
+, [ "row-qqh4-hbmz.ggi8", "00000000-0000-0000-29B4-AA14B65CCA34", 0, 1746418502, null, 1746418502, null, "{ }", "127", "False", "1", "DeKalb Av", "(L)", "DeKalb Av", "127", "L16", "Bk", "False", "L", "Subway", "40.703811", "-73.918425", "0", null ]
+, [ "row-da47.x9vk_z2s5", "00000000-0000-0000-9173-4185C4AC26DC", 0, 1746418502, null, 1746418502, null, "{ }", "129", "False", "1", "Halsey St", "(L)", "Halsey St", "129", "L19", "Q", "False", "L", "Subway", "40.695602", "-73.904084", "0", null ]
+, [ "row-jrfv.t2jj-b6da", "00000000-0000-0000-4D10-33DBD16C1DE1", 0, 1746418502, null, 1746418502, null, "{ }", "130", "False", "1", "Wilson Av", "(L)", "Wilson Av", "130", "L20", "Bk", "False", "L", "Subway", "40.688764", "-73.904046", "2", "Manhattan-bound only" ]
+, [ "row-27d3.ktux.mdic", "00000000-0000-0000-0148-6EEAB0C44E5F", 0, 1746418502, null, 1746418502, null, "{ }", "131", "False", "1", "Bushwick Av-Aberdeen St", "(L)", "Bushwick Av-Aberdeen St", "131", "L21", "Bk", "False", "L", "Subway", "40.682829", "-73.905249", "0", null ]
+, [ "row-m336_c9wz_mndn", "00000000-0000-0000-A896-72C6369C7A20", 0, 1746418502, null, 1746418502, null, "{ }", "133", "False", "1", "Atlantic Av", "(L)", "Atlantic Av", "133", "L24", "Bk", "False", "L", "Elevated", "40.675345", "-73.903097", "0", null ]
+, [ "row-di2g-ky2f_vimx", "00000000-0000-0000-2522-6225C6831CA2", 0, 1746418502, null, 1746418502, null, "{ }", "134", "False", "1", "Sutter Av", "(L)", "Sutter Av", "134", "L25", "Bk", "False", "L", "Elevated", "40.669367", "-73.901975", "0", null ]
+, [ "row-5aqr_hng2_ebby", "00000000-0000-0000-B6F9-D64A362F930E", 0, 1746418502, null, 1746418502, null, "{ }", "135", "False", "1", "Livonia Av", "(L)", "Livonia Av", "135", "L26", "Bk", "False", "L", "Elevated", "40.664038", "-73.900571", "1", null ]
+, [ "row-utbx-k7x8-n2i5", "00000000-0000-0000-3FEB-96F08497DAFB", 0, 1746418502, null, 1746418502, null, "{ }", "136", "False", "1", "New Lots Av", "(L)", "New Lots Av", "136", "L27", "Bk", "False", "L", "Elevated", "40.658733", "-73.899232", "0", null ]
+, [ "row-3kcr-3iga.q7bu", "00000000-0000-0000-9D1E-9BF18D774650", 0, 1746418502, null, 1746418502, null, "{ }", "137", "False", "1", "East 105 St", "(L)", "East 105 St", "137", "L28", "Bk", "False", "L", "At Grade", "40.650573", "-73.899485", "0", null ]
+, [ "row-jhpk.tsgt-5uam", "00000000-0000-0000-5430-7D685AC0C299", 0, 1746418502, null, 1746418502, null, "{ }", "138", "False", "1", "Canarsie-Rockaway Pkwy", "(L)", "Canarsie-Rockaway Pkwy", "138", "L29", "Bk", "False", "L", "At Grade", "40.646654", "-73.90185", "1", null ]
+ ]
+}
